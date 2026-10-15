@@ -11,4 +11,3 @@ next-env.d.ts
 .DS_Store
 .vercel
 npm-debug.log*
-pnpm-debug.log*

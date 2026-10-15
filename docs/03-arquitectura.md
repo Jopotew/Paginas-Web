@@ -27,7 +27,7 @@ C4Context
 C4Container
   title Contenedores — monorepo
   Person(cliente, "Cliente")
-  Container_Boundary(repo, "Monorepo pnpm") {
+  Container_Boundary(repo, "Monorepo npm workspaces") {
     Container(app, "apps/tienda-ropa", "Next.js 16, App Router, React 19", "Páginas, componentes y server action de checkout")
     Container(core, "packages/core", "TypeScript + Zod", "Contratos, branding, dinero, carrito, catálogo, checkout, pagos")
     Container(ropa, "packages/module-ropa", "TypeScript + Zod", "Variantes color × talle, facetas, guías de talles")
@@ -114,6 +114,8 @@ sequenceDiagram
 **D8. Sin cuentas de usuario.** El checkout como invitado es el estándar recomendado y reduce el alcance del MVP.
 
 **D9. CSS plano con custom properties, sin framework.** El branding se inyecta como variables desde `site.json`; un framework de utilidades no aporta en un sitio de este tamaño y agrega una dependencia.
+
+**D10. npm workspaces como gestor del monorepo.** Se usa npm para no sumar herramientas. Las dependencias internas se declaran con `"*"`, que npm resuelve al paquete local. Trade-off: npm sube todo a un `node_modules` común, así que un paquete podría importar algo que no declaró sin que la instalación falle; el typecheck por paquete lo detecta solo en parte. Vitest está en la versión 5 porque la 4 dispara un error del resolvedor de npm 10 con sus dependencias peer opcionales (`Cannot read properties of null (reading 'edgesOut')`).
 
 ## Rendimiento
 

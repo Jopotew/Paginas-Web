@@ -11,7 +11,7 @@
     "typecheck": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "@pw/core": "workspace:*",
+    "@pw/core": "*",
     "zod": "^4.1.0"
   }
 }
