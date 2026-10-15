@@ -1,0 +1,155 @@
+[
+  {
+    "id": "ramo-estacion",
+    "name": "Ramo de estación",
+    "categoryId": "ramos",
+    "price": 28000,
+    "description": "Siete tallos de lo más lindo que entró en el día, en papel lila.",
+    "image": { "src": "/img/productos/ramo-estacion.svg", "alt": "Ramo mixto en tonos lila y rosa envuelto en papel claro", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "ramo-pastel",
+    "name": "Ramo pastel",
+    "categoryId": "ramos",
+    "price": 32000,
+    "description": "Rosas, tulipanes y lisianthus en rosas suaves.",
+    "image": { "src": "/img/productos/ramo-pastel.svg", "alt": "Ramo en tonos rosa pastel envuelto en papel blanco", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "ramo-silvestre",
+    "name": "Ramo silvestre",
+    "categoryId": "ramos",
+    "price": 24000,
+    "description": "Margaritas y flores de campo en papel kraft.",
+    "image": { "src": "/img/productos/ramo-silvestre.svg", "alt": "Ramo de flores blancas con centro amarillo en papel kraft", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "ramo-grande",
+    "name": "Ramo grande",
+    "categoryId": "ramos",
+    "price": 52000,
+    "description": "Diez tallos o más, para cumpleaños, aniversarios y ocasiones importantes.",
+    "image": { "src": "/img/productos/ramo-grande.svg", "alt": "Ramo abundante en violetas y rosas envuelto en papel verde", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "rosas-rojas-12",
+    "name": "Docena de rosas rojas",
+    "categoryId": "rosas",
+    "price": 45000,
+    "description": "Doce rosas rojas de tallo largo con follaje.",
+    "image": { "src": "/img/productos/rosas-rojas-12.svg", "alt": "Ramo de rosas rojas envuelto en papel negro", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "rosas-blancas",
+    "name": "Media docena de rosas blancas",
+    "categoryId": "rosas",
+    "price": 26000,
+    "description": "Seis rosas blancas en papel violeta.",
+    "image": { "src": "/img/productos/rosas-blancas.svg", "alt": "Ramo de rosas blancas envuelto en papel violeta", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "rosas-rosadas",
+    "name": "Media docena de rosas rosadas",
+    "categoryId": "rosas",
+    "price": 26000,
+    "description": "Seis rosas rosadas en papel blanco.",
+    "image": { "src": "/img/productos/rosas-rosadas.svg", "alt": "Ramo de rosas rosadas envuelto en papel blanco", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "rosa-unica",
+    "name": "Rosa roja suelta",
+    "categoryId": "rosas",
+    "price": 5000,
+    "description": "Una rosa de tallo largo con celofán y moño.",
+    "image": { "src": "/img/productos/rosa-unica.svg", "alt": "Una rosa roja de tallo largo", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "tulipanes-amarillos",
+    "name": "Tulipanes amarillos",
+    "categoryId": "tulipanes",
+    "price": 30000,
+    "description": "Diez tulipanes amarillos.",
+    "image": { "src": "/img/productos/tulipanes-amarillos.svg", "alt": "Tulipanes amarillos sueltos", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "tulipanes-violetas",
+    "name": "Tulipanes violetas",
+    "categoryId": "tulipanes",
+    "price": 30000,
+    "description": "Diez tulipanes violetas.",
+    "image": { "src": "/img/productos/tulipanes-violetas.svg", "alt": "Tulipanes violetas sueltos", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "tulipanes-mix",
+    "name": "Ramo de tulipanes mix",
+    "categoryId": "tulipanes",
+    "price": 38000,
+    "description": "Quince tulipanes en colores combinados, en papel kraft.",
+    "image": { "src": "/img/productos/tulipanes-mix.svg", "alt": "Ramo de tulipanes rosados envuelto en papel kraft", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "girasol-unico",
+    "name": "Girasol suelto",
+    "categoryId": "girasoles",
+    "price": 6000,
+    "description": "Un girasol grande con moño.",
+    "image": { "src": "/img/productos/girasol-unico.svg", "alt": "Un girasol grande", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "girasoles-3",
+    "name": "Tres girasoles",
+    "categoryId": "girasoles",
+    "price": 16000,
+    "description": "Tres girasoles con follaje verde.",
+    "image": { "src": "/img/productos/girasoles-3.svg", "alt": "Tres girasoles de distintas alturas", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "girasoles-ramo",
+    "name": "Ramo de girasoles",
+    "categoryId": "girasoles",
+    "price": 29000,
+    "description": "Seis girasoles en papel kraft.",
+    "image": { "src": "/img/productos/girasoles-ramo.svg", "alt": "Ramo de girasoles envuelto en papel kraft", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "orquidea-blanca",
+    "name": "Orquídea blanca",
+    "categoryId": "plantas",
+    "price": 42000,
+    "description": "Phalaenopsis de una vara en maceta. Regar una vez por semana.",
+    "image": { "src": "/img/productos/orquidea-blanca.svg", "alt": "Orquídea de flores blancas en maceta lila", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "orquidea-violeta",
+    "name": "Orquídea violeta",
+    "categoryId": "plantas",
+    "price": 42000,
+    "description": "Phalaenopsis violeta de una vara en maceta.",
+    "image": { "src": "/img/productos/orquidea-violeta.svg", "alt": "Orquídea de flores violetas en maceta lila", "width": 800, "height": 1000 },
+    "available": true
+  },
+  {
+    "id": "lirio-maceta",
+    "name": "Lirio en maceta",
+    "categoryId": "plantas",
+    "price": 22000,
+    "description": "Lilium rosado con varios pimpollos por abrir.",
+    "image": { "src": "/img/productos/lirio-maceta.svg", "alt": "Lirio rosado en maceta lila", "width": 800, "height": 1000 },
+    "available": true
+  }
+]

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+<rect width="800" height="1000" fill="#F6F4FA"/>
+<path d="M185.8 336.3 q128.5 291.8 42.8 583.7" stroke="#2E5A41" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M273.7 431.7 q75.8 244.1 25.3 488.3" stroke="#2E5A41" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M313.2 264.7 q52.1 327.6 17.4 655.3" stroke="#2E5A41" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M368.3 357.0 q19.0 281.5 6.3 563.0" stroke="#2E5A41" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M380.2 339.8 q11.9 290.1 4.0 580.2" stroke="#2E5A41" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M426.7 438.8 q-16.0 240.6 -5.3 481.2" stroke="#2E5A41" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M502.4 258.3 q-61.4 330.8 -20.5 661.7" stroke="#2E5A41" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M539.5 282.6 q-83.7 318.7 -27.9 637.4" stroke="#2E5A41" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M621.3 410.3 q-132.8 254.8 -44.3 509.7" stroke="#2E5A41" stroke-width="7" fill="none" stroke-linecap="round"/><path transform="translate(250.1 599.0) rotate(-35.0)" d="M0 0 C 41.6 -36.4 93.6 -20.8 104.0 0 C 93.6 20.8 41.6 36.4 0 0Z" fill="#4E8A5E"/><path transform="translate(311.6 651.4) rotate(-35.0)" d="M0 0 C 41.6 -36.4 93.6 -20.8 104.0 0 C 93.6 20.8 41.6 36.4 0 0Z" fill="#4E8A5E"/><path transform="translate(339.3 559.6) rotate(205.0)" d="M0 0 C 41.6 -36.4 93.6 -20.8 104.0 0 C 93.6 20.8 41.6 36.4 0 0Z" fill="#4E8A5E"/><path transform="translate(418.7 655.3) rotate(-35.0)" d="M0 0 C 41.6 -36.4 93.6 -20.8 104.0 0 C 93.6 20.8 41.6 36.4 0 0Z" fill="#4E8A5E"/><path transform="translate(554.9 639.7) rotate(-35.0)" d="M0 0 C 41.6 -36.4 93.6 -20.8 104.0 0 C 93.6 20.8 41.6 36.4 0 0Z" fill="#4E8A5E"/><g transform="translate(426.7 438.8)">
+<path d="M-115.7 -23.1 C -115.7 104.1 115.7 104.1 115.7 -23.1 L 57.8 17.4 L 0 -63.6 L -57.8 17.4 Z" fill="#E58FA6"/>
+<path d="M-52.1 11.6 C -34.7 81.0 34.7 81.0 52.1 11.6 L 0 -46.3 Z" fill="#B04F6E"/>
+</g><g transform="translate(273.7 431.7)">
+<path d="M-101.3 -20.3 C -101.3 91.2 101.3 91.2 101.3 -20.3 L 50.7 15.2 L 0 -55.7 L -50.7 15.2 Z" fill="#E58FA6"/>
+<path d="M-45.6 10.1 C -30.4 70.9 30.4 70.9 45.6 10.1 L 0 -40.5 Z" fill="#B04F6E"/>
+</g><g transform="translate(621.3 410.3)">
+<path d="M-113.8 -22.8 C -113.8 102.4 113.8 102.4 113.8 -22.8 L 56.9 17.1 L 0 -62.6 L -56.9 17.1 Z" fill="#E58FA6"/>
+<path d="M-51.2 11.4 C -34.1 79.6 34.1 79.6 51.2 11.4 L 0 -45.5 Z" fill="#B04F6E"/>
+</g><g transform="translate(368.3 357.0)">
+<path d="M-119.5 -23.9 C -119.5 107.5 119.5 107.5 119.5 -23.9 L 59.7 17.9 L 0 -65.7 L -59.7 17.9 Z" fill="#E58FA6"/>
+<path d="M-53.8 11.9 C -35.8 83.6 35.8 83.6 53.8 11.9 L 0 -47.8 Z" fill="#B04F6E"/>
+</g><g transform="translate(380.2 339.8)">
+<path d="M-102.5 -20.5 C -102.5 92.2 102.5 92.2 102.5 -20.5 L 51.2 15.4 L 0 -56.4 L -51.2 15.4 Z" fill="#E58FA6"/>
+<path d="M-46.1 10.2 C -30.7 71.7 30.7 71.7 46.1 10.2 L 0 -41.0 Z" fill="#B04F6E"/>
+</g><g transform="translate(185.8 336.3)">
+<path d="M-92.4 -18.5 C -92.4 83.2 92.4 83.2 92.4 -18.5 L 46.2 13.9 L 0 -50.8 L -46.2 13.9 Z" fill="#E58FA6"/>
+<path d="M-41.6 9.2 C -27.7 64.7 27.7 64.7 41.6 9.2 L 0 -37.0 Z" fill="#B04F6E"/>
+</g><g transform="translate(539.5 282.6)">
+<path d="M-110.5 -22.1 C -110.5 99.4 110.5 99.4 110.5 -22.1 L 55.2 16.6 L 0 -60.8 L -55.2 16.6 Z" fill="#E58FA6"/>
+<path d="M-49.7 11.0 C -33.1 77.3 33.1 77.3 49.7 11.0 L 0 -44.2 Z" fill="#B04F6E"/>
+</g><g transform="translate(313.2 264.7)">
+<path d="M-90.2 -18.0 C -90.2 81.2 90.2 81.2 90.2 -18.0 L 45.1 13.5 L 0 -49.6 L -45.1 13.5 Z" fill="#E58FA6"/>
+<path d="M-40.6 9.0 C -27.1 63.1 27.1 63.1 40.6 9.0 L 0 -36.1 Z" fill="#B04F6E"/>
+</g><g transform="translate(502.4 258.3)">
+<path d="M-119.3 -23.9 C -119.3 107.4 119.3 107.4 119.3 -23.9 L 59.7 17.9 L 0 -65.6 L -59.7 17.9 Z" fill="#E58FA6"/>
+<path d="M-53.7 11.9 C -35.8 83.5 35.8 83.5 53.7 11.9 L 0 -47.7 Z" fill="#B04F6E"/>
+</g><path d="M144.0 500.0 L 656.0 500.0 L 448.0 980.0 L 352.0 980.0 Z" fill="#C7A27C" opacity="0.92"/>
+<text x="776" y="978" text-anchor="end" font-family="system-ui, sans-serif" font-size="20" fill="#23202B" opacity="0.45">Imagen provisoria · Tulipanes mix</text>
+</svg>

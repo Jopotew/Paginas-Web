@@ -1,0 +1,138 @@
+.root {
+  position: relative;
+}
+
+.track {
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.track::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+  scroll-snap-align: start;
+  min-width: 0;
+}
+
+/* Hero: un slide por vez, a todo el ancho */
+.hero .track {
+  grid-auto-columns: 100%;
+}
+
+/* Mini: varios visibles, con el siguiente asomando para invitar a deslizar */
+.mini .track {
+  grid-auto-columns: 68%;
+  gap: var(--space-3);
+  scroll-padding-inline: 0;
+}
+
+@media (min-width: 640px) {
+  .mini .track {
+    grid-auto-columns: calc((100% - 2 * var(--space-3)) / 2.4);
+  }
+}
+
+@media (min-width: 1024px) {
+  .mini .track {
+    grid-auto-columns: calc((100% - 2 * var(--space-3)) / 2.6);
+  }
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.hero .controls {
+  position: absolute;
+  right: var(--gutter);
+  bottom: var(--space-4);
+  margin: 0;
+}
+
+.control {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.control svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.control svg.filled {
+  fill: currentColor;
+  stroke: none;
+}
+
+.control:hover:not(:disabled) {
+  background: var(--jacaranda-soft);
+}
+
+.control:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.dots {
+  display: flex;
+  gap: 6px;
+  margin-left: var(--space-2);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1.5px solid var(--surface);
+  background: transparent;
+  cursor: pointer;
+  /* Área táctil más grande que el punto visible */
+  box-shadow: 0 0 0 1px rgb(35 32 43 / 0.35);
+}
+
+.dot[aria-current="true"] {
+  background: var(--surface);
+  width: 26px;
+  border-radius: 5px;
+}
+
+@media (max-width: 639px) {
+  .hero .controls {
+    position: static;
+    padding-inline: var(--gutter);
+  }
+
+  .dot {
+    border-color: var(--jacaranda);
+    box-shadow: none;
+  }
+
+  .dot[aria-current="true"] {
+    background: var(--jacaranda);
+  }
+}

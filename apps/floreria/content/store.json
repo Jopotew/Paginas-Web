@@ -1,0 +1,15 @@
+{
+  "name": "Florería Jacarandá",
+  "tagline": "Flores frescas todos los días, armadas en el momento.",
+  "description": "Florería de barrio en Buenos Aires. Ramos, rosas, tulipanes, girasoles y plantas con envío en el día.",
+  "whatsapp": "5491100000000",
+  "instagram": "floreria.jacaranda",
+  "address": "Av. Siempreviva 742, CABA",
+  "mapsUrl": "https://maps.google.com/?q=Av.+Siempreviva+742,+CABA",
+  "hours": [
+    { "days": "Lunes a viernes", "time": "9 a 20 h" },
+    { "days": "Sábados", "time": "9 a 14 h" }
+  ],
+  "deliveryNote": "Envíos en el día en CABA para pedidos confirmados antes de las 14 h. El costo del envío se confirma por WhatsApp según la zona.",
+  "currency": "ARS"
+}

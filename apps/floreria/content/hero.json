@@ -1,0 +1,29 @@
+[
+  {
+    "id": "local",
+    "title": "Flores frescas, armadas en el momento",
+    "text": "Pasá por el local o pedí online y lo recibís en el día.",
+    "image": { "src": "/img/hero/local.svg", "alt": "Frente de la florería con baldes de flores en la vidriera", "width": 1600, "height": 900 },
+    "cta": { "label": "Ver flores", "href": "#catalogo" }
+  },
+  {
+    "id": "temporada",
+    "title": "Llegó la temporada de jacarandás",
+    "text": "Ramos en violetas y lilas mientras dure la floración.",
+    "image": { "src": "/img/hero/jacaranda.svg", "alt": "Jacarandá en flor con pétalos violetas en la vereda", "width": 1600, "height": 900 },
+    "cta": { "label": "Ver ramos", "href": "#ramos" }
+  },
+  {
+    "id": "taller",
+    "title": "Cada ramo se arma a mano",
+    "text": "Contanos para quién es y lo adaptamos.",
+    "image": { "src": "/img/hero/taller.svg", "alt": "Mesa de trabajo con un ramo envuelto, tulipanes y girasoles", "width": 1600, "height": 900 }
+  },
+  {
+    "id": "envios",
+    "title": "Envíos en el día en CABA",
+    "text": "Pedí antes de las 14 h y lo llevamos hoy.",
+    "image": { "src": "/img/hero/envios.svg", "alt": "Ramo de rosas envuelto junto a la puerta de una casa", "width": 1600, "height": 900 },
+    "cta": { "label": "Cómo pedir", "href": "#como-pedir" }
+  }
+]

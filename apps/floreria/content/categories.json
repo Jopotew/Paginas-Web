@@ -1,0 +1,7 @@
+[
+  { "id": "ramos", "name": "Ramos", "description": "Combinaciones de estación armadas por nosotros. Los colores cambian según lo que entra cada mañana.", "order": 1 },
+  { "id": "rosas", "name": "Rosas", "description": "Rosas de tallo largo, sueltas o en ramo. Rojas, blancas y rosadas.", "order": 2 },
+  { "id": "tulipanes", "name": "Tulipanes", "description": "Duran más si los ponés en agua fría y cortás el tallo en diagonal.", "order": 3 },
+  { "id": "girasoles", "name": "Girasoles", "description": "Grandes, alegres y fáciles de cuidar.", "order": 4 },
+  { "id": "plantas", "name": "Plantas", "description": "Orquídeas y plantas con flor en maceta, para que duren meses.", "order": 5 }
+]

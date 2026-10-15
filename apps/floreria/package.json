@@ -1,0 +1,35 @@
+{
+  "name": "floreria",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MVP de tienda online para una florería: catálogo con slides y pedido por WhatsApp.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "validate": "node --experimental-strip-types scripts/validate-content.ts",
+    "placeholders": "node --experimental-strip-types scripts/generate-placeholders.ts"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "dependencies": {
+    "@fontsource-variable/figtree": "^5.3.0",
+    "@fontsource/gloock": "^5.3.0",
+    "next": "^16.4.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.1",
+    "typescript": "^5.9.3"
+  }
+}
