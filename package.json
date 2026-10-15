@@ -3,22 +3,26 @@
   "private": true,
   "type": "module",
   "description": "Plataforma modular de tiendas online personalizables. Vertical activo: Ropa.",
-  "packageManager": "pnpm@10.28.0",
   "engines": {
-    "node": ">=20.9"
+    "node": ">=20.9",
+    "npm": ">=10"
   },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "scripts": {
-    "dev": "pnpm --filter tienda-ropa dev",
-    "build": "pnpm --filter tienda-ropa build",
-    "start": "pnpm --filter tienda-ropa start",
+    "dev": "npm run dev -w tienda-ropa",
+    "build": "npm run build -w tienda-ropa",
+    "start": "npm run start -w tienda-ropa",
     "test": "vitest run",
     "test:watch": "vitest",
-    "typecheck": "pnpm -r typecheck",
-    "validate:content": "pnpm --filter tienda-ropa validate:content",
-    "check": "pnpm typecheck && pnpm test && pnpm validate:content"
+    "typecheck": "npm run typecheck --workspaces",
+    "validate:content": "npm run validate:content -w tienda-ropa",
+    "check": "npm run typecheck && npm test && npm run validate:content"
   },
   "devDependencies": {
     "typescript": "^5.9.3",
-    "vitest": "^4.0.0"
+    "vitest": "^5.0.4"
   }
 }

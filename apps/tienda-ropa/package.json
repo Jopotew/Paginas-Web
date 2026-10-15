@@ -11,8 +11,8 @@
     "validate:content": "vitest run --root ../.. apps/tienda-ropa/test/content.test.ts"
   },
   "dependencies": {
-    "@pw/core": "workspace:*",
-    "@pw/ropa": "workspace:*",
+    "@pw/core": "*",
+    "@pw/ropa": "*",
     "next": "^16.4.1",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",

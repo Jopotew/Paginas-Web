@@ -64,8 +64,8 @@ Estado: ✅ implementado en el MVP · ⏳ planificado (ver roadmap)
 
 | ID | Requisito | Cómo se verifica |
 | --- | --- | --- |
-| RNF-01 | TypeScript estricto en todo el código (`strict`, `noUncheckedIndexedAccess`) | `pnpm typecheck` |
-| RNF-02 | El contenido se valida con Zod; un JSON inválido rompe el build con un mensaje claro | `pnpm validate:content` y `next build` |
+| RNF-01 | TypeScript estricto en todo el código (`strict`, `noUncheckedIndexedAccess`) | `npm run typecheck` |
+| RNF-02 | El contenido se valida con Zod; un JSON inválido rompe el build con un mensaje claro | `npm run validate:content` y `next build` |
 | RNF-03 | Las server actions validan toda entrada; nunca se confía en precios del cliente | Tests de `buildOrder` |
 | RNF-04 | Accesibilidad: navegación por teclado, foco visible, diálogos nativos, controles de formulario con etiqueta, `prefers-reduced-motion` | Revisión manual; auditoría automática pendiente (ver roadmap) |
 | RNF-05 | Responsive desde 360 px | Recorrido automatizado en 390 px y 1366 px |

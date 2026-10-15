@@ -7,25 +7,25 @@ Plataforma modular para generar tiendas online independientes por cliente a part
 ## Requisitos
 
 - Node.js 20.9 o superior (probado con 22)
-- pnpm 10 (`corepack enable` lo instala)
+- npm 10 o superior (viene con Node)
 
 ## Cómo correrlo
 
 ```bash
-pnpm install
-pnpm dev          # http://localhost:3000
+npm install
+npm run dev       # http://localhost:3000
 ```
 
 Otros comandos, desde la raíz:
 
 | Comando | Qué hace |
 | --- | --- |
-| `pnpm build` | Build de producción de la tienda |
-| `pnpm start` | Sirve el build de producción |
-| `pnpm test` | Tests unitarios de `core`, `ropa` y validación del contenido |
-| `pnpm typecheck` | `tsc` en todos los paquetes |
-| `pnpm validate:content` | Valida `content/*.json` contra los schemas |
-| `pnpm check` | Las tres verificaciones anteriores juntas |
+| `npm run build` | Build de producción de la tienda |
+| `npm start` | Sirve el build de producción |
+| `npm test` | Tests unitarios de `core`, `ropa` y validación del contenido |
+| `npm run typecheck` | `tsc` en todos los paquetes |
+| `npm run validate:content` | Valida `content/*.json` contra los schemas |
+| `npm run check` | Las tres verificaciones anteriores juntas |
 
 ## Estructura
 
@@ -51,7 +51,7 @@ Todo lo que distingue a un cliente está en `apps/tienda-ropa/content/`:
 - **`site.json`**: nombre, colores, tipografías, textos del inicio, categorías, opciones de envío, política de cambios, contacto e instrucciones de pago.
 - **`products.json`**: productos con sus colores, talles y stock por variante.
 
-Después de editar, `pnpm validate:content` dice exactamente qué campo está mal. El build también falla si el contenido no es válido, así que un error de tipeo nunca llega a producción. El detalle de cada campo está en [docs/04-modelo-de-datos.md](docs/04-modelo-de-datos.md).
+Después de editar, `npm run validate:content` dice exactamente qué campo está mal. El build también falla si el contenido no es válido, así que un error de tipeo nunca llega a producción. El detalle de cada campo está en [docs/04-modelo-de-datos.md](docs/04-modelo-de-datos.md).
 
 ## Documentación
 

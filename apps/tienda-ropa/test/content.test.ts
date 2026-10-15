@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 /**
- * Valida los JSON de /content. Corre en CI y con `pnpm validate:content`
+ * Valida los JSON de /content. Corre en CI y con `npm run validate:content`
  * después de editar productos o la configuración de la tienda.
  */
 describe("contenido de la tienda", () => {
