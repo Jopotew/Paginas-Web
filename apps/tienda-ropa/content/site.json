@@ -1,0 +1,70 @@
+{
+  "vertical": "ropa",
+  "siteUrl": "https://trama.example",
+  "locale": "es-AR",
+  "currency": { "code": "ARS", "locale": "es-AR", "fractionDigits": 0 },
+  "branding": {
+    "name": "Trama",
+    "tagline": "Ropa de todos los días",
+    "logoText": "Trama",
+    "colors": {
+      "background": "#FFFFFF",
+      "surface": "#F4F5F6",
+      "surfaceSunken": "#E9ECEF",
+      "text": "#1D2127",
+      "textMuted": "#5E656D",
+      "border": "#D9DDE1",
+      "accent": "#2F4A6D",
+      "accentHover": "#233A57",
+      "accentContrast": "#FFFFFF",
+      "accentSoft": "#E4EAF1",
+      "sale": "#A6291F",
+      "success": "#2E6A47",
+      "focus": "#4C7BC4"
+    },
+    "fonts": {
+      "display": "\"Newsreader\", \"Iowan Old Style\", Georgia, serif",
+      "body": "\"Public Sans\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+      "stylesheetUrl": "https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap"
+    },
+    "radius": { "control": 2, "surface": 4 }
+  },
+  "seo": {
+    "title": "Trama — Ropa de todos los días",
+    "description": "Remeras, camisas, buzos, camperas, pantalones y vestidos en algodón, lino, lana y denim. Envíos a todo el país y cambios sin cargo por 30 días."
+  },
+  "hero": {
+    "title": "Ropa de todos los días, hecha para durar",
+    "body": "Algodón, lino, lana y denim en cortes simples que se combinan entre sí. Si el talle no es el tuyo, el cambio es gratis durante 30 días.",
+    "ctaLabel": "Ver la colección",
+    "ctaHref": "/tienda"
+  },
+  "announcement": "Envío gratis desde $120.000 y cambios sin cargo durante 30 días",
+  "categories": [
+    { "slug": "remeras", "name": "Remeras", "description": "Básicas, oversize y rayadas, en algodón de buen gramaje." },
+    { "slug": "camisas", "name": "Camisas", "description": "Oxford, lino y denim liviano para usar todo el año." },
+    { "slug": "buzos-y-sweaters", "name": "Buzos y sweaters", "description": "Frisa, merino y punto grueso para los meses fríos." },
+    { "slug": "camperas", "name": "Camperas", "description": "Denim, gabardina y rompevientos." },
+    { "slug": "pantalones", "name": "Pantalones", "description": "Jeans rígidos, chinos y cargo." },
+    { "slug": "vestidos-y-polleras", "name": "Vestidos y polleras", "description": "Lino, popelín y plisados de largo midi." }
+  ],
+  "shipping": {
+    "options": [
+      { "id": "retiro", "label": "Retiro en el local", "description": "Palermo, CABA. Lunes a sábado de 11 a 20 h.", "price": 0, "requiresAddress": false },
+      { "id": "envio-amba", "label": "Envío a domicilio en CABA y GBA", "description": "Llega en 2 a 4 días hábiles.", "price": 5900, "requiresAddress": true },
+      { "id": "envio-pais", "label": "Envío al resto del país", "description": "Por correo, llega en 4 a 8 días hábiles.", "price": 8900, "requiresAddress": true }
+    ],
+    "freeShippingThreshold": 120000
+  },
+  "returnsPolicy": "Podés cambiar cualquier prenda sin uso, con etiqueta, dentro de los 30 días de recibida. El primer cambio es sin cargo, en el local o por envío.",
+  "contact": {
+    "email": "hola@trama.example",
+    "whatsapp": "5491100000000",
+    "address": "Palermo, Ciudad de Buenos Aires",
+    "instagram": "trama.ropa"
+  },
+  "payment": {
+    "provider": "manual",
+    "instructions": "Te escribimos por WhatsApp o email dentro de las 24 h hábiles para confirmar el stock y coordinar el pago por transferencia bancaria, o en efectivo si retirás en el local. Las prendas quedan reservadas por 48 h."
+  }
+}

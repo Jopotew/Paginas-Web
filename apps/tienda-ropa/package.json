@@ -1,0 +1,27 @@
+{
+  "name": "tienda-ropa",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc -p tsconfig.json",
+    "validate:content": "vitest run --root ../.. apps/tienda-ropa/test/content.test.ts"
+  },
+  "dependencies": {
+    "@pw/core": "workspace:*",
+    "@pw/ropa": "workspace:*",
+    "next": "^16.4.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.9.3"
+  }
+}

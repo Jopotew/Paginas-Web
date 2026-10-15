@@ -1,0 +1,2492 @@
+[
+  {
+    "id": "rem-01",
+    "slug": "remera-basica-algodon-peinado",
+    "name": "Remera básica de algodón peinado",
+    "category": "remeras",
+    "garment": "remera",
+    "description": "La remera de todos los días: algodón peinado de 24/1, cuello redondo con ribete y costuras dobles que no se deforman con los lavados.",
+    "price": 19900,
+    "compareAtPrice": null,
+    "fit": "Regular",
+    "material": "100% algodón peinado 24/1",
+    "care": [
+      "Lavar a máquina en agua fría con colores similares",
+      "No usar secarropas",
+      "Planchar a temperatura media del revés"
+    ],
+    "sizeChart": "superior",
+    "tags": [
+      "basico",
+      "algodon"
+    ],
+    "createdAt": "2026-06-02",
+    "featured": true,
+    "colors": [
+      {
+        "id": "blanco",
+        "name": "Blanco",
+        "hex": "#F2F1EC",
+        "family": "blanco",
+        "images": []
+      },
+      {
+        "id": "negro",
+        "name": "Negro",
+        "hex": "#232323",
+        "family": "negro",
+        "images": []
+      },
+      {
+        "id": "gris-melange",
+        "name": "Gris melange",
+        "hex": "#9A9EA3",
+        "family": "gris",
+        "images": []
+      },
+      {
+        "id": "azul-marino",
+        "name": "Azul marino",
+        "hex": "#26344A",
+        "family": "azul",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "sku": "TR-REM01-BLA-XS",
+        "color": "blanco",
+        "size": "XS",
+        "stock": 6
+      },
+      {
+        "sku": "TR-REM01-BLA-S",
+        "color": "blanco",
+        "size": "S",
+        "stock": 4
+      },
+      {
+        "sku": "TR-REM01-BLA-M",
+        "color": "blanco",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "sku": "TR-REM01-BLA-L",
+        "color": "blanco",
+        "size": "L",
+        "stock": 9
+      },
+      {
+        "sku": "TR-REM01-BLA-XL",
+        "color": "blanco",
+        "size": "XL",
+        "stock": 12
+      },
+      {
+        "sku": "TR-REM01-BLA-XXL",
+        "color": "blanco",
+        "size": "XXL",
+        "stock": 1
+      },
+      {
+        "sku": "TR-REM01-NEG-XS",
+        "color": "negro",
+        "size": "XS",
+        "stock": 5
+      },
+      {
+        "sku": "TR-REM01-NEG-S",
+        "color": "negro",
+        "size": "S",
+        "stock": 3
+      },
+      {
+        "sku": "TR-REM01-NEG-M",
+        "color": "negro",
+        "size": "M",
+        "stock": 13
+      },
+      {
+        "sku": "TR-REM01-NEG-L",
+        "color": "negro",
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "sku": "TR-REM01-NEG-XL",
+        "color": "negro",
+        "size": "XL",
+        "stock": 13
+      },
+      {
+        "sku": "TR-REM01-NEG-XXL",
+        "color": "negro",
+        "size": "XXL",
+        "stock": 13
+      },
+      {
+        "sku": "TR-REM01-GMRI-XS",
+        "color": "gris-melange",
+        "size": "XS",
+        "stock": 4
+      },
+      {
+        "sku": "TR-REM01-GMRI-S",
+        "color": "gris-melange",
+        "size": "S",
+        "stock": 4
+      },
+      {
+        "sku": "TR-REM01-GMRI-M",
+        "color": "gris-melange",
+        "size": "M",
+        "stock": 6
+      },
+      {
+        "sku": "TR-REM01-GMRI-L",
+        "color": "gris-melange",
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "sku": "TR-REM01-GMRI-XL",
+        "color": "gris-melange",
+        "size": "XL",
+        "stock": 13
+      },
+      {
+        "sku": "TR-REM01-GMRI-XXL",
+        "color": "gris-melange",
+        "size": "XXL",
+        "stock": 14
+      },
+      {
+        "sku": "TR-REM01-AMZU-XS",
+        "color": "azul-marino",
+        "size": "XS",
+        "stock": 3
+      },
+      {
+        "sku": "TR-REM01-AMZU-S",
+        "color": "azul-marino",
+        "size": "S",
+        "stock": 7
+      },
+      {
+        "sku": "TR-REM01-AMZU-M",
+        "color": "azul-marino",
+        "size": "M",
+        "stock": 12
+      },
+      {
+        "sku": "TR-REM01-AMZU-L",
+        "color": "azul-marino",
+        "size": "L",
+        "stock": 13
+      },
+      {
+        "sku": "TR-REM01-AMZU-XL",
+        "color": "azul-marino",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "TR-REM01-AMZU-XXL",
+        "color": "azul-marino",
+        "size": "XXL",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "rem-02",
+    "slug": "remera-oversize-jersey-pesado",
+    "name": "Remera oversize de jersey pesado",
+    "category": "remeras",
+    "garment": "remera",
+    "description": "Jersey de 220 g con caída firme, hombro caído y largo extra. Pensada para usar suelta, sola o sobre una camisa abierta.",
+    "price": 27900,
+    "compareAtPrice": null,
+    "fit": "Oversize",
+    "material": "100% algodón, jersey 220 g/m²",
+    "care": [
+      "Lavar a máquina en agua fría con colores similares",
+      "No usar secarropas",
+      "Planchar a temperatura media del revés"
+    ],
+    "sizeChart": "superior",
+    "tags": [
+      "oversize",
+      "algodon"
+    ],
+    "createdAt": "2026-09-20",
+    "featured": false,
+    "colors": [
+      {
+        "id": "arena",
+        "name": "Arena",
+        "hex": "#D9C9AA",
+        "family": "beige",
+        "images": []
+      },
+      {
+        "id": "verde-oliva",
+        "name": "Verde oliva",
+        "hex": "#5F6B45",
+        "family": "verde",
+        "images": []
+      },
+      {
+        "id": "negro",
+        "name": "Negro",
+        "hex": "#232323",
+        "family": "negro",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "sku": "TR-REM02-ARE-XS",
+        "color": "arena",
+        "size": "XS",
+        "stock": 9
+      },
+      {
+        "sku": "TR-REM02-ARE-S",
+        "color": "arena",
+        "size": "S",
+        "stock": 11
+      },
+      {
+        "sku": "TR-REM02-ARE-M",
+        "color": "arena",
+        "size": "M",
+        "stock": 7
+      },
+      {
+        "sku": "TR-REM02-ARE-L",
+        "color": "arena",
+        "size": "L",
+        "stock": 7
+      },
+      {
+        "sku": "TR-REM02-ARE-XL",
+        "color": "arena",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "TR-REM02-ARE-XXL",
+        "color": "arena",
+        "size": "XXL",
+        "stock": 11
+      },
+      {
+        "sku": "TR-REM02-VOER-XS",
+        "color": "verde-oliva",
+        "size": "XS",
+        "stock": 11
+      },
+      {
+        "sku": "TR-REM02-VOER-S",
+        "color": "verde-oliva",
+        "size": "S",
+        "stock": 1
+      },
+      {
+        "sku": "TR-REM02-VOER-M",
+        "color": "verde-oliva",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "sku": "TR-REM02-VOER-L",
+        "color": "verde-oliva",
+        "size": "L",
+        "stock": 9
+      },
+      {
+        "sku": "TR-REM02-VOER-XL",
+        "color": "verde-oliva",
+        "size": "XL",
+        "stock": 2
+      },
+      {
+        "sku": "TR-REM02-VOER-XXL",
+        "color": "verde-oliva",
+        "size": "XXL",
+        "stock": 14
+      },
+      {
+        "sku": "TR-REM02-NEG-XS",
+        "color": "negro",
+        "size": "XS",
+        "stock": 0
+      },
+      {
+        "sku": "TR-REM02-NEG-S",
+        "color": "negro",
+        "size": "S",
+        "stock": 9
+      },
+      {
+        "sku": "TR-REM02-NEG-M",
+        "color": "negro",
+        "size": "M",
+        "stock": 9
+      },
+      {
+        "sku": "TR-REM02-NEG-L",
+        "color": "negro",
+        "size": "L",
+        "stock": 13
+      },
+      {
+        "sku": "TR-REM02-NEG-XL",
+        "color": "negro",
+        "size": "XL",
+        "stock": 5
+      },
+      {
+        "sku": "TR-REM02-NEG-XXL",
+        "color": "negro",
+        "size": "XXL",
+        "stock": 8
+      }
+    ]
+  },
+  {
+    "id": "rem-03",
+    "slug": "remera-rayada-marinera",
+    "name": "Remera rayada marinera",
+    "category": "remeras",
+    "garment": "remera",
+    "description": "Rayas finas tejidas, no estampadas, así que no se cuartean. Manga corta y cuello bote apenas abierto.",
+    "price": 24900,
+    "compareAtPrice": 31900,
+    "fit": "Regular",
+    "material": "100% algodón",
+    "care": [
+      "Lavar a máquina en agua fría con colores similares",
+      "No usar secarropas",
+      "Planchar a temperatura media del revés"
+    ],
+    "sizeChart": "superior",
+    "tags": [
+      "rayas",
+      "algodon"
+    ],
+    "createdAt": "2026-07-10",
+    "featured": false,
+    "colors": [
+      {
+        "id": "crudo-azul",
+        "name": "Crudo con azul",
+        "hex": "#E9E3D3",
+        "family": "blanco",
+        "images": []
+      },
+      {
+        "id": "azul-crudo",
+        "name": "Azul con crudo",
+        "hex": "#2C3F63",
+        "family": "azul",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "sku": "TR-REM03-CARU-XS",
+        "color": "crudo-azul",
+        "size": "XS",
+        "stock": 14
+      },
+      {
+        "sku": "TR-REM03-CARU-S",
+        "color": "crudo-azul",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "TR-REM03-CARU-M",
+        "color": "crudo-azul",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "sku": "TR-REM03-CARU-L",
+        "color": "crudo-azul",
+        "size": "L",
+        "stock": 14
+      },
+      {
+        "sku": "TR-REM03-CARU-XL",
+        "color": "crudo-azul",
+        "size": "XL",
+        "stock": 8
+      },
+      {
+        "sku": "TR-REM03-CARU-XXL",
+        "color": "crudo-azul",
+        "size": "XXL",
+        "stock": 14
+      },
+      {
+        "sku": "TR-REM03-ACZU-XS",
+        "color": "azul-crudo",
+        "size": "XS",
+        "stock": 11
+      },
+      {
+        "sku": "TR-REM03-ACZU-S",
+        "color": "azul-crudo",
+        "size": "S",
+        "stock": 13
+      },
+      {
+        "sku": "TR-REM03-ACZU-M",
+        "color": "azul-crudo",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "sku": "TR-REM03-ACZU-L",
+        "color": "azul-crudo",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "TR-REM03-ACZU-XL",
+        "color": "azul-crudo",
+        "size": "XL",
+        "stock": 6
+      },
+      {
+        "sku": "TR-REM03-ACZU-XXL",
+        "color": "azul-crudo",
+        "size": "XXL",
+        "stock": 10
+      }
+    ]
+  },
+  {
+    "id": "cam-01",
+    "slug": "camisa-oxford",
+    "name": "Camisa Oxford",
+    "category": "camisas",
+    "garment": "camisa",
+    "description": "Tela Oxford de trama visible, cuello con botones y bolsillo al pecho. Se usa con jean y también abajo de un saco.",
+    "price": 45900,
+    "compareAtPrice": null,
+    "fit": "Regular",
+    "material": "100% algodón Oxford",
+    "care": [
+      "Lavar a máquina en agua fría con colores similares",
+      "No usar secarropas",
+      "Planchar a temperatura media del revés"
+    ],
+    "sizeChart": "superior",
+    "tags": [
+      "oxford",
+      "algodon"
+    ],
+    "createdAt": "2026-06-15",
+    "featured": true,
+    "colors": [
+      {
+        "id": "celeste",
+        "name": "Celeste",
+        "hex": "#AFC3D9",
+        "family": "azul",
+        "images": []
+      },
+      {
+        "id": "blanco",
+        "name": "Blanco",
+        "hex": "#F4F4F2",
+        "family": "blanco",
+        "images": []
+      },
+      {
+        "id": "rosa-viejo",
+        "name": "Rosa viejo",
+        "hex": "#D9B3B0",
+        "family": "rosa",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "sku": "TR-CAM01-CEL-XS",
+        "color": "celeste",
+        "size": "XS",
+        "stock": 11
+      },
+      {
+        "sku": "TR-CAM01-CEL-S",
+        "color": "celeste",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "TR-CAM01-CEL-M",
+        "color": "celeste",
+        "size": "M",
+        "stock": 12
+      },
+      {
+        "sku": "TR-CAM01-CEL-L",
+        "color": "celeste",
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "sku": "TR-CAM01-CEL-XL",
+        "color": "celeste",
+        "size": "XL",
+        "stock": 12
+      },
+      {
+        "sku": "TR-CAM01-CEL-XXL",
+        "color": "celeste",
+        "size": "XXL",
+        "stock": 2
+      },
+      {
+        "sku": "TR-CAM01-BLA-XS",
+        "color": "blanco",
+        "size": "XS",
+        "stock": 14
+      },
+      {
+        "sku": "TR-CAM01-BLA-S",
+        "color": "blanco",
+        "size": "S",
+        "stock": 7
+      },
+      {
+        "sku": "TR-CAM01-BLA-M",
+        "color": "blanco",
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "sku": "TR-CAM01-BLA-L",
+        "color": "blanco",
+        "size": "L",
+        "stock": 3
+      },
+      {
+        "sku": "TR-CAM01-BLA-XL",
+        "color": "blanco",
+        "size": "XL",
+        "stock": 2
+      },
+      {
+        "sku": "TR-CAM01-BLA-XXL",
+        "color": "blanco",
+        "size": "XXL",
+        "stock": 6
+      },
+      {
+        "sku": "TR-CAM01-RVOS-XS",
+        "color": "rosa-viejo",
+        "size": "XS",
+        "stock": 1
+      },
+      {
+        "sku": "TR-CAM01-RVOS-S",
+        "color": "rosa-viejo",
+        "size": "S",
+        "stock": 3
+      },
+      {
+        "sku": "TR-CAM01-RVOS-M",
+        "color": "rosa-viejo",
+        "size": "M",
+        "stock": 13
+      },
+      {
+        "sku": "TR-CAM01-RVOS-L",
+        "color": "rosa-viejo",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "sku": "TR-CAM01-RVOS-XL",
+        "color": "rosa-viejo",
+        "size": "XL",
+        "stock": 12
+      },
+      {
+        "sku": "TR-CAM01-RVOS-XXL",
+        "color": "rosa-viejo",
+        "size": "XXL",
+        "stock": 14
+      }
+    ]
+  },
+  {
+    "id": "cam-02",
+    "slug": "camisa-lino-manga-larga",
+    "name": "Camisa de lino manga larga",
+    "category": "camisas",
+    "garment": "camisa",
+    "description": "Lino lavado, liviano y fresco, con la textura natural que se suaviza con cada uso. Cuello clásico y botones de nácar.",
+    "price": 58900,
+    "compareAtPrice": 69900,
+    "fit": "Relajado",
+    "material": "100% lino lavado",
+    "care": [
+      "Lavar a mano o en ciclo delicado en agua fría",
+      "Secar a la sombra",
+      "Planchar húmedo a temperatura alta"
+    ],
+    "sizeChart": "superior",
+    "tags": [
+      "lino",
+      "verano"
+    ],
+    "createdAt": "2026-08-28",
+    "featured": false,
+    "colors": [
+      {
+        "id": "arena",
+        "name": "Arena",
+        "hex": "#D8CCB5",
+        "family": "beige",
+        "images": []
+      },
+      {
+        "id": "verde-salvia",
+        "name": "Verde salvia",
+        "hex": "#9AAA90",
+        "family": "verde",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "sku": "TR-CAM02-ARE-XS",
+        "color": "arena",
+        "size": "XS",
+        "stock": 4
+      },
+      {
+        "sku": "TR-CAM02-ARE-S",
+        "color": "arena",
+        "size": "S",
+        "stock": 14
+      },
+      {
+        "sku": "TR-CAM02-ARE-M",
+        "color": "arena",
+        "size": "M",
+        "stock": 10
+      },
+      {
+        "sku": "TR-CAM02-ARE-L",
+        "color": "arena",
+        "size": "L",
+        "stock": 10
+      },
+      {
+        "sku": "TR-CAM02-ARE-XL",
+        "color": "arena",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "TR-CAM02-ARE-XXL",
+        "color": "arena",
+        "size": "XXL",
+        "stock": 4
+      },
+      {
+        "sku": "TR-CAM02-VSER-XS",
+        "color": "verde-salvia",
+        "size": "XS",
+        "stock": 1
+      },
+      {
+        "sku": "TR-CAM02-VSER-S",
+        "color": "verde-salvia",
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "sku": "TR-CAM02-VSER-M",
+        "color": "verde-salvia",
+        "size": "M",
+        "stock": 4
+      },
+      {
+        "sku": "TR-CAM02-VSER-L",
+        "color": "verde-salvia",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "TR-CAM02-VSER-XL",
+        "color": "verde-salvia",
+        "size": "XL",
+        "stock": 12
+      },
+      {
+        "sku": "TR-CAM02-VSER-XXL",
+        "color": "verde-salvia",
+        "size": "XXL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "cam-03",
+    "slug": "camisa-denim-liviana",
+    "name": "Camisa de denim liviano",
+    "category": "camisas",
+    "garment": "camisa",
+    "description": "Denim de 6 oz, más fino que el de un jean, con doble bolsillo y botones a presión. Funciona como camisa o como capa liviana.",
+    "price": 52900,
+    "compareAtPrice": null,
+    "fit": "Regular",
+    "material": "100% algodón, denim 6 oz",
+    "care": [
+      "Lavar del revés en agua fría",
+      "No usar lavandina",
+      "Secar a la sombra para conservar el color"
+    ],
+    "sizeChart": "superior",
+    "tags": [
+      "denim"
+    ],
+    "createdAt": "2026-09-05",
+    "featured": true,
+    "colors": [
+      {
+        "id": "indigo",
+        "name": "Índigo",
+        "hex": "#3B5375",
+        "family": "azul",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "sku": "TR-CAM03-IND-XS",
+        "color": "indigo",
+        "size": "XS",
+        "stock": 2
+      },
+      {
+        "sku": "TR-CAM03-IND-S",
+        "color": "indigo",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "TR-CAM03-IND-M",
+        "color": "indigo",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "sku": "TR-CAM03-IND-L",
+        "color": "indigo",
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "sku": "TR-CAM03-IND-XL",
+        "color": "indigo",
+        "size": "XL",
+        "stock": 2
+      },
+      {
+        "sku": "TR-CAM03-IND-XXL",
+        "color": "indigo",
+        "size": "XXL",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "buz-01",
+    "slug": "buzo-canguro-frisa",
+    "name": "Buzo canguro de frisa",
+    "category": "buzos-y-sweaters",
+    "garment": "buzo",
+    "description": "Frisa invisible de algodón con interior perchado, capucha forrada y bolsillo canguro. Puños y cintura de ribb.",
+    "price": 49900,
+    "compareAtPrice": null,
+    "fit": "Regular",
+    "material": "80% algodón, 20% poliéster",
+    "care": [
+      "Lavar a máquina en agua fría con colores similares",
+      "No usar secarropas",
+      "Planchar a temperatura media del revés"
+    ],
+    "sizeChart": "superior",
+    "tags": [
+      "frisa",
+      "invierno"
+    ],
+    "createdAt": "2026-07-01",
+    "featured": true,
+    "colors": [
+      {
+        "id": "gris-melange",
+        "name": "Gris melange",
+        "hex": "#9A9EA3",
+        "family": "gris",
+        "images": []
+      },
+      {
+        "id": "azul-marino",
+        "name": "Azul marino",
+        "hex": "#26344A",
+        "family": "azul",
+        "images": []
+      },
+      {
+        "id": "verde-botella",
+        "name": "Verde botella",
+        "hex": "#2F4A3A",
+        "family": "verde",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "sku": "TR-BUZ01-GMRI-XS",
+        "color": "gris-melange",
+        "size": "XS",
+        "stock": 0
+      },
+      {
+        "sku": "TR-BUZ01-GMRI-S",
+        "color": "gris-melange",
+        "size": "S",
+        "stock": 11
+      },
+      {
+        "sku": "TR-BUZ01-GMRI-M",
+        "color": "gris-melange",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "sku": "TR-BUZ01-GMRI-L",
+        "color": "gris-melange",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "TR-BUZ01-GMRI-XL",
+        "color": "gris-melange",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "TR-BUZ01-GMRI-XXL",
+        "color": "gris-melange",
+        "size": "XXL",
+        "stock": 8
+      },
+      {
+        "sku": "TR-BUZ01-AMZU-XS",
+        "color": "azul-marino",
+        "size": "XS",
+        "stock": 6
+      },
+      {
+        "sku": "TR-BUZ01-AMZU-S",
+        "color": "azul-marino",
+        "size": "S",
+        "stock": 7
+      },
+      {
+        "sku": "TR-BUZ01-AMZU-M",
+        "color": "azul-marino",
+        "size": "M",
+        "stock": 12
+      },
+      {
+        "sku": "TR-BUZ01-AMZU-L",
+        "color": "azul-marino",
+        "size": "L",
+        "stock": 12
+      },
+      {
+        "sku": "TR-BUZ01-AMZU-XL",
+        "color": "azul-marino",
+        "size": "XL",
+        "stock": 12
+      },
+      {
+        "sku": "TR-BUZ01-AMZU-XXL",
+        "color": "azul-marino",
+        "size": "XXL",
+        "stock": 3
+      },
+      {
+        "sku": "TR-BUZ01-VBER-XS",
+        "color": "verde-botella",
+        "size": "XS",
+        "stock": 8
+      },
+      {
+        "sku": "TR-BUZ01-VBER-S",
+        "color": "verde-botella",
+        "size": "S",
+        "stock": 6
+      },
+      {
+        "sku": "TR-BUZ01-VBER-M",
+        "color": "verde-botella",
+        "size": "M",
+        "stock": 7
+      },
+      {
+        "sku": "TR-BUZ01-VBER-L",
+        "color": "verde-botella",
+        "size": "L",
+        "stock": 12
+      },
+      {
+        "sku": "TR-BUZ01-VBER-XL",
+        "color": "verde-botella",
+        "size": "XL",
+        "stock": 7
+      },
+      {
+        "sku": "TR-BUZ01-VBER-XXL",
+        "color": "verde-botella",
+        "size": "XXL",
+        "stock": 7
+      }
+    ]
+  },
+  {
+    "id": "swe-01",
+    "slug": "sweater-cuello-redondo-merino",
+    "name": "Sweater cuello redondo de merino",
+    "category": "buzos-y-sweaters",
+    "garment": "sweater",
+    "description": "Tejido de punto fino en lana merino: abriga sin abultar y no pica. Se usa solo o sobre una camisa.",
+    "price": 72900,
+    "compareAtPrice": null,
+    "fit": "Regular",
+    "material": "100% lana merino",
+    "care": [
+      "Lavar a mano en agua fría con jabón neutro",
+      "Secar en plano, nunca colgado",
+      "No usar secarropas"
+    ],
+    "sizeChart": "superior",
+    "tags": [
+      "lana",
+      "merino",
+      "invierno"
+    ],
+    "createdAt": "2026-06-20",
+    "featured": false,
+    "colors": [
+      {
+        "id": "crudo",
+        "name": "Crudo",
+        "hex": "#E8E0CF",
+        "family": "beige",
+        "images": []
+      },
+      {
+        "id": "camel",
+        "name": "Camel",
+        "hex": "#B58C5E",
+        "family": "marron",
+        "images": []
+      },
+      {
+        "id": "gris-topo",
+        "name": "Gris topo",
+        "hex": "#6E6A66",
+        "family": "gris",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "sku": "TR-SWE01-CRU-XS",
+        "color": "crudo",
+        "size": "XS",
+        "stock": 10
+      },
+      {
+        "sku": "TR-SWE01-CRU-S",
+        "color": "crudo",
+        "size": "S",
+        "stock": 7
+      },
+      {
+        "sku": "TR-SWE01-CRU-M",
+        "color": "crudo",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "sku": "TR-SWE01-CRU-L",
+        "color": "crudo",
+        "size": "L",
+        "stock": 4
+      },
+      {
+        "sku": "TR-SWE01-CRU-XL",
+        "color": "crudo",
+        "size": "XL",
+        "stock": 8
+      },
+      {
+        "sku": "TR-SWE01-CRU-XXL",
+        "color": "crudo",
+        "size": "XXL",
+        "stock": 7
+      },
+      {
+        "sku": "TR-SWE01-CAM-XS",
+        "color": "camel",
+        "size": "XS",
+        "stock": 9
+      },
+      {
+        "sku": "TR-SWE01-CAM-S",
+        "color": "camel",
+        "size": "S",
+        "stock": 9
+      },
+      {
+        "sku": "TR-SWE01-CAM-M",
+        "color": "camel",
+        "size": "M",
+        "stock": 9
+      },
+      {
+        "sku": "TR-SWE01-CAM-L",
+        "color": "camel",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "TR-SWE01-CAM-XL",
+        "color": "camel",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "TR-SWE01-CAM-XXL",
+        "color": "camel",
+        "size": "XXL",
+        "stock": 9
+      },
+      {
+        "sku": "TR-SWE01-GTRI-XS",
+        "color": "gris-topo",
+        "size": "XS",
+        "stock": 3
+      },
+      {
+        "sku": "TR-SWE01-GTRI-S",
+        "color": "gris-topo",
+        "size": "S",
+        "stock": 13
+      },
+      {
+        "sku": "TR-SWE01-GTRI-M",
+        "color": "gris-topo",
+        "size": "M",
+        "stock": 11
+      },
+      {
+        "sku": "TR-SWE01-GTRI-L",
+        "color": "gris-topo",
+        "size": "L",
+        "stock": 9
+      },
+      {
+        "sku": "TR-SWE01-GTRI-XL",
+        "color": "gris-topo",
+        "size": "XL",
+        "stock": 5
+      },
+      {
+        "sku": "TR-SWE01-GTRI-XXL",
+        "color": "gris-topo",
+        "size": "XXL",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "swe-02",
+    "slug": "sweater-trenzado",
+    "name": "Sweater trenzado",
+    "category": "buzos-y-sweaters",
+    "garment": "sweater",
+    "description": "Punto grueso con trenzas al frente y en las mangas. Cuello alto doblado y calce amplio.",
+    "price": 79900,
+    "compareAtPrice": 92900,
+    "fit": "Amplio",
+    "material": "70% lana, 30% acrílico",
+    "care": [
+      "Lavar a mano en agua fría con jabón neutro",
+      "Secar en plano, nunca colgado",
+      "No usar secarropas"
+    ],
+    "sizeChart": "superior",
+    "tags": [
+      "lana",
+      "invierno"
+    ],
+    "createdAt": "2026-06-05",
+    "featured": false,
+    "colors": [
+      {
+        "id": "bordo",
+        "name": "Bordó",
+        "hex": "#6E2430",
+        "family": "rojo",
+        "images": []
+      },
+      {
+        "id": "crudo",
+        "name": "Crudo",
+        "hex": "#E8E0CF",
+        "family": "beige",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "sku": "TR-SWE02-BOR-XS",
+        "color": "bordo",
+        "size": "XS",
+        "stock": 0
+      },
+      {
+        "sku": "TR-SWE02-BOR-S",
+        "color": "bordo",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "TR-SWE02-BOR-M",
+        "color": "bordo",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "sku": "TR-SWE02-BOR-L",
+        "color": "bordo",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "TR-SWE02-BOR-XL",
+        "color": "bordo",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "TR-SWE02-BOR-XXL",
+        "color": "bordo",
+        "size": "XXL",
+        "stock": 0
+      },
+      {
+        "sku": "TR-SWE02-CRU-XS",
+        "color": "crudo",
+        "size": "XS",
+        "stock": 4
+      },
+      {
+        "sku": "TR-SWE02-CRU-S",
+        "color": "crudo",
+        "size": "S",
+        "stock": 2
+      },
+      {
+        "sku": "TR-SWE02-CRU-M",
+        "color": "crudo",
+        "size": "M",
+        "stock": 6
+      },
+      {
+        "sku": "TR-SWE02-CRU-L",
+        "color": "crudo",
+        "size": "L",
+        "stock": 13
+      },
+      {
+        "sku": "TR-SWE02-CRU-XL",
+        "color": "crudo",
+        "size": "XL",
+        "stock": 14
+      },
+      {
+        "sku": "TR-SWE02-CRU-XXL",
+        "color": "crudo",
+        "size": "XXL",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": "cpa-01",
+    "slug": "campera-de-jean-clasica",
+    "name": "Campera de jean clásica",
+    "category": "camperas",
+    "garment": "campera",
+    "description": "Denim rígido de 13 oz que se amolda con el uso, bolsillos con tapa y costuras en contraste. La de siempre, bien hecha.",
+    "price": 89900,
+    "compareAtPrice": null,
+    "fit": "Regular",
+    "material": "100% algodón, denim 13 oz",
+    "care": [
+      "Lavar del revés en agua fría",
+      "No usar lavandina",
+      "Secar a la sombra para conservar el color"
+    ],
+    "sizeChart": "superior",
+    "tags": [
+      "denim"
+    ],
+    "createdAt": "2026-08-12",
+    "featured": true,
+    "colors": [
+      {
+        "id": "indigo",
+        "name": "Índigo",
+        "hex": "#34507A",
+        "family": "azul",
+        "images": []
+      },
+      {
+        "id": "negro-lavado",
+        "name": "Negro lavado",
+        "hex": "#2E2F33",
+        "family": "negro",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "sku": "TR-CPA01-IND-XS",
+        "color": "indigo",
+        "size": "XS",
+        "stock": 6
+      },
+      {
+        "sku": "TR-CPA01-IND-S",
+        "color": "indigo",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "TR-CPA01-IND-M",
+        "color": "indigo",
+        "size": "M",
+        "stock": 14
+      },
+      {
+        "sku": "TR-CPA01-IND-L",
+        "color": "indigo",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "TR-CPA01-IND-XL",
+        "color": "indigo",
+        "size": "XL",
+        "stock": 6
+      },
+      {
+        "sku": "TR-CPA01-IND-XXL",
+        "color": "indigo",
+        "size": "XXL",
+        "stock": 7
+      },
+      {
+        "sku": "TR-CPA01-NLEG-XS",
+        "color": "negro-lavado",
+        "size": "XS",
+        "stock": 7
+      },
+      {
+        "sku": "TR-CPA01-NLEG-S",
+        "color": "negro-lavado",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "TR-CPA01-NLEG-M",
+        "color": "negro-lavado",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "sku": "TR-CPA01-NLEG-L",
+        "color": "negro-lavado",
+        "size": "L",
+        "stock": 3
+      },
+      {
+        "sku": "TR-CPA01-NLEG-XL",
+        "color": "negro-lavado",
+        "size": "XL",
+        "stock": 12
+      },
+      {
+        "sku": "TR-CPA01-NLEG-XXL",
+        "color": "negro-lavado",
+        "size": "XXL",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": "cpa-02",
+    "slug": "campera-rompevientos",
+    "name": "Campera rompevientos",
+    "category": "camperas",
+    "garment": "campera",
+    "description": "Nylon liviano con repelencia al agua, capucha guardada en el cuello y cierre de doble cursor. Se pliega en su propio bolsillo.",
+    "price": 84900,
+    "compareAtPrice": null,
+    "fit": "Regular",
+    "material": "100% poliamida con tratamiento repelente",
+    "care": [
+      "Lavar a mano en agua fría",
+      "No planchar",
+      "Secar colgada a la sombra"
+    ],
+    "sizeChart": "superior",
+    "tags": [
+      "abrigo",
+      "lluvia"
+    ],
+    "createdAt": "2026-09-02",
+    "featured": false,
+    "colors": [
+      {
+        "id": "verde-militar",
+        "name": "Verde militar",
+        "hex": "#55603F",
+        "family": "verde",
+        "images": []
+      },
+      {
+        "id": "negro",
+        "name": "Negro",
+        "hex": "#232323",
+        "family": "negro",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "sku": "TR-CPA02-VMER-XS",
+        "color": "verde-militar",
+        "size": "XS",
+        "stock": 0
+      },
+      {
+        "sku": "TR-CPA02-VMER-S",
+        "color": "verde-militar",
+        "size": "S",
+        "stock": 11
+      },
+      {
+        "sku": "TR-CPA02-VMER-M",
+        "color": "verde-militar",
+        "size": "M",
+        "stock": 12
+      },
+      {
+        "sku": "TR-CPA02-VMER-L",
+        "color": "verde-militar",
+        "size": "L",
+        "stock": 12
+      },
+      {
+        "sku": "TR-CPA02-VMER-XL",
+        "color": "verde-militar",
+        "size": "XL",
+        "stock": 1
+      },
+      {
+        "sku": "TR-CPA02-VMER-XXL",
+        "color": "verde-militar",
+        "size": "XXL",
+        "stock": 4
+      },
+      {
+        "sku": "TR-CPA02-NEG-XS",
+        "color": "negro",
+        "size": "XS",
+        "stock": 6
+      },
+      {
+        "sku": "TR-CPA02-NEG-S",
+        "color": "negro",
+        "size": "S",
+        "stock": 6
+      },
+      {
+        "sku": "TR-CPA02-NEG-M",
+        "color": "negro",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "sku": "TR-CPA02-NEG-L",
+        "color": "negro",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "sku": "TR-CPA02-NEG-XL",
+        "color": "negro",
+        "size": "XL",
+        "stock": 9
+      },
+      {
+        "sku": "TR-CPA02-NEG-XXL",
+        "color": "negro",
+        "size": "XXL",
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "id": "cpa-03",
+    "slug": "campera-gabardina-workwear",
+    "name": "Campera de gabardina workwear",
+    "category": "camperas",
+    "garment": "campera",
+    "description": "Gabardina pesada con cuello de corderoy y cuatro bolsillos. Inspirada en la ropa de trabajo, con costuras triples.",
+    "price": 99900,
+    "compareAtPrice": null,
+    "fit": "Recto",
+    "material": "100% algodón, gabardina 10 oz",
+    "care": [
+      "Lavar a máquina en agua fría con colores similares",
+      "No usar secarropas",
+      "Planchar a temperatura media del revés"
+    ],
+    "sizeChart": "superior",
+    "tags": [
+      "workwear",
+      "abrigo"
+    ],
+    "createdAt": "2026-10-08",
+    "featured": false,
+    "colors": [
+      {
+        "id": "camel",
+        "name": "Camel",
+        "hex": "#B89A6A",
+        "family": "beige",
+        "images": []
+      },
+      {
+        "id": "azul-marino",
+        "name": "Azul marino",
+        "hex": "#26344A",
+        "family": "azul",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "sku": "TR-CPA03-CAM-XS",
+        "color": "camel",
+        "size": "XS",
+        "stock": 5
+      },
+      {
+        "sku": "TR-CPA03-CAM-S",
+        "color": "camel",
+        "size": "S",
+        "stock": 4
+      },
+      {
+        "sku": "TR-CPA03-CAM-M",
+        "color": "camel",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "sku": "TR-CPA03-CAM-L",
+        "color": "camel",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "TR-CPA03-CAM-XL",
+        "color": "camel",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "TR-CPA03-CAM-XXL",
+        "color": "camel",
+        "size": "XXL",
+        "stock": 4
+      },
+      {
+        "sku": "TR-CPA03-AMZU-XS",
+        "color": "azul-marino",
+        "size": "XS",
+        "stock": 5
+      },
+      {
+        "sku": "TR-CPA03-AMZU-S",
+        "color": "azul-marino",
+        "size": "S",
+        "stock": 13
+      },
+      {
+        "sku": "TR-CPA03-AMZU-M",
+        "color": "azul-marino",
+        "size": "M",
+        "stock": 13
+      },
+      {
+        "sku": "TR-CPA03-AMZU-L",
+        "color": "azul-marino",
+        "size": "L",
+        "stock": 8
+      },
+      {
+        "sku": "TR-CPA03-AMZU-XL",
+        "color": "azul-marino",
+        "size": "XL",
+        "stock": 12
+      },
+      {
+        "sku": "TR-CPA03-AMZU-XXL",
+        "color": "azul-marino",
+        "size": "XXL",
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "id": "pan-01",
+    "slug": "jean-recto-rigido",
+    "name": "Jean recto rígido",
+    "category": "pantalones",
+    "garment": "pantalon",
+    "description": "Tiro medio, pierna recta y denim sin elastano que se ablanda y toma la forma del cuerpo. Cinco bolsillos y botones de metal.",
+    "price": 69900,
+    "compareAtPrice": null,
+    "fit": "Recto",
+    "material": "100% algodón, denim 12 oz",
+    "care": [
+      "Lavar del revés en agua fría",
+      "No usar lavandina",
+      "Secar a la sombra para conservar el color"
+    ],
+    "sizeChart": "inferior",
+    "tags": [
+      "denim",
+      "jean"
+    ],
+    "createdAt": "2026-07-22",
+    "featured": true,
+    "colors": [
+      {
+        "id": "indigo",
+        "name": "Índigo",
+        "hex": "#2F4566",
+        "family": "azul",
+        "images": []
+      },
+      {
+        "id": "celeste-lavado",
+        "name": "Celeste lavado",
+        "hex": "#7D97B5",
+        "family": "azul",
+        "images": []
+      },
+      {
+        "id": "negro",
+        "name": "Negro",
+        "hex": "#262626",
+        "family": "negro",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44",
+      "46"
+    ],
+    "variants": [
+      {
+        "sku": "TR-PAN01-IND-36",
+        "color": "indigo",
+        "size": "36",
+        "stock": 12
+      },
+      {
+        "sku": "TR-PAN01-IND-38",
+        "color": "indigo",
+        "size": "38",
+        "stock": 8
+      },
+      {
+        "sku": "TR-PAN01-IND-40",
+        "color": "indigo",
+        "size": "40",
+        "stock": 7
+      },
+      {
+        "sku": "TR-PAN01-IND-42",
+        "color": "indigo",
+        "size": "42",
+        "stock": 6
+      },
+      {
+        "sku": "TR-PAN01-IND-44",
+        "color": "indigo",
+        "size": "44",
+        "stock": 10
+      },
+      {
+        "sku": "TR-PAN01-IND-46",
+        "color": "indigo",
+        "size": "46",
+        "stock": 5
+      },
+      {
+        "sku": "TR-PAN01-CLEL-36",
+        "color": "celeste-lavado",
+        "size": "36",
+        "stock": 10
+      },
+      {
+        "sku": "TR-PAN01-CLEL-38",
+        "color": "celeste-lavado",
+        "size": "38",
+        "stock": 0
+      },
+      {
+        "sku": "TR-PAN01-CLEL-40",
+        "color": "celeste-lavado",
+        "size": "40",
+        "stock": 5
+      },
+      {
+        "sku": "TR-PAN01-CLEL-42",
+        "color": "celeste-lavado",
+        "size": "42",
+        "stock": 6
+      },
+      {
+        "sku": "TR-PAN01-CLEL-44",
+        "color": "celeste-lavado",
+        "size": "44",
+        "stock": 14
+      },
+      {
+        "sku": "TR-PAN01-CLEL-46",
+        "color": "celeste-lavado",
+        "size": "46",
+        "stock": 6
+      },
+      {
+        "sku": "TR-PAN01-NEG-36",
+        "color": "negro",
+        "size": "36",
+        "stock": 1
+      },
+      {
+        "sku": "TR-PAN01-NEG-38",
+        "color": "negro",
+        "size": "38",
+        "stock": 7
+      },
+      {
+        "sku": "TR-PAN01-NEG-40",
+        "color": "negro",
+        "size": "40",
+        "stock": 5
+      },
+      {
+        "sku": "TR-PAN01-NEG-42",
+        "color": "negro",
+        "size": "42",
+        "stock": 11
+      },
+      {
+        "sku": "TR-PAN01-NEG-44",
+        "color": "negro",
+        "size": "44",
+        "stock": 3
+      },
+      {
+        "sku": "TR-PAN01-NEG-46",
+        "color": "negro",
+        "size": "46",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": "pan-02",
+    "slug": "pantalon-chino",
+    "name": "Pantalón chino",
+    "category": "pantalones",
+    "garment": "pantalon",
+    "description": "Gabardina con un toque de elastano, tiro medio y pierna que se angosta apenas hacia el tobillo.",
+    "price": 54900,
+    "compareAtPrice": null,
+    "fit": "Slim",
+    "material": "97% algodón, 3% elastano",
+    "care": [
+      "Lavar a máquina en agua fría con colores similares",
+      "No usar secarropas",
+      "Planchar a temperatura media del revés"
+    ],
+    "sizeChart": "inferior",
+    "tags": [
+      "gabardina"
+    ],
+    "createdAt": "2026-06-28",
+    "featured": false,
+    "colors": [
+      {
+        "id": "beige",
+        "name": "Beige",
+        "hex": "#C9B48F",
+        "family": "beige",
+        "images": []
+      },
+      {
+        "id": "azul-marino",
+        "name": "Azul marino",
+        "hex": "#26344A",
+        "family": "azul",
+        "images": []
+      },
+      {
+        "id": "verde-oliva",
+        "name": "Verde oliva",
+        "hex": "#5F6B45",
+        "family": "verde",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44",
+      "46"
+    ],
+    "variants": [
+      {
+        "sku": "TR-PAN02-BEI-36",
+        "color": "beige",
+        "size": "36",
+        "stock": 12
+      },
+      {
+        "sku": "TR-PAN02-BEI-38",
+        "color": "beige",
+        "size": "38",
+        "stock": 10
+      },
+      {
+        "sku": "TR-PAN02-BEI-40",
+        "color": "beige",
+        "size": "40",
+        "stock": 2
+      },
+      {
+        "sku": "TR-PAN02-BEI-42",
+        "color": "beige",
+        "size": "42",
+        "stock": 0
+      },
+      {
+        "sku": "TR-PAN02-BEI-44",
+        "color": "beige",
+        "size": "44",
+        "stock": 9
+      },
+      {
+        "sku": "TR-PAN02-BEI-46",
+        "color": "beige",
+        "size": "46",
+        "stock": 11
+      },
+      {
+        "sku": "TR-PAN02-AMZU-36",
+        "color": "azul-marino",
+        "size": "36",
+        "stock": 10
+      },
+      {
+        "sku": "TR-PAN02-AMZU-38",
+        "color": "azul-marino",
+        "size": "38",
+        "stock": 13
+      },
+      {
+        "sku": "TR-PAN02-AMZU-40",
+        "color": "azul-marino",
+        "size": "40",
+        "stock": 1
+      },
+      {
+        "sku": "TR-PAN02-AMZU-42",
+        "color": "azul-marino",
+        "size": "42",
+        "stock": 0
+      },
+      {
+        "sku": "TR-PAN02-AMZU-44",
+        "color": "azul-marino",
+        "size": "44",
+        "stock": 7
+      },
+      {
+        "sku": "TR-PAN02-AMZU-46",
+        "color": "azul-marino",
+        "size": "46",
+        "stock": 5
+      },
+      {
+        "sku": "TR-PAN02-VOER-36",
+        "color": "verde-oliva",
+        "size": "36",
+        "stock": 0
+      },
+      {
+        "sku": "TR-PAN02-VOER-38",
+        "color": "verde-oliva",
+        "size": "38",
+        "stock": 1
+      },
+      {
+        "sku": "TR-PAN02-VOER-40",
+        "color": "verde-oliva",
+        "size": "40",
+        "stock": 1
+      },
+      {
+        "sku": "TR-PAN02-VOER-42",
+        "color": "verde-oliva",
+        "size": "42",
+        "stock": 14
+      },
+      {
+        "sku": "TR-PAN02-VOER-44",
+        "color": "verde-oliva",
+        "size": "44",
+        "stock": 8
+      },
+      {
+        "sku": "TR-PAN02-VOER-46",
+        "color": "verde-oliva",
+        "size": "46",
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "id": "pan-03",
+    "slug": "pantalon-cargo",
+    "name": "Pantalón cargo",
+    "category": "pantalones",
+    "garment": "pantalon",
+    "description": "Ripstop resistente con bolsillos laterales con fuelle y botamanga con cordón regulable.",
+    "price": 62900,
+    "compareAtPrice": 74900,
+    "fit": "Relajado",
+    "material": "100% algodón ripstop",
+    "care": [
+      "Lavar a máquina en agua fría con colores similares",
+      "No usar secarropas",
+      "Planchar a temperatura media del revés"
+    ],
+    "sizeChart": "inferior",
+    "tags": [
+      "cargo"
+    ],
+    "createdAt": "2026-08-03",
+    "featured": false,
+    "colors": [
+      {
+        "id": "negro",
+        "name": "Negro",
+        "hex": "#262626",
+        "family": "negro",
+        "images": []
+      },
+      {
+        "id": "verde-militar",
+        "name": "Verde militar",
+        "hex": "#55603F",
+        "family": "verde",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44",
+      "46"
+    ],
+    "variants": [
+      {
+        "sku": "TR-PAN03-NEG-36",
+        "color": "negro",
+        "size": "36",
+        "stock": 13
+      },
+      {
+        "sku": "TR-PAN03-NEG-38",
+        "color": "negro",
+        "size": "38",
+        "stock": 9
+      },
+      {
+        "sku": "TR-PAN03-NEG-40",
+        "color": "negro",
+        "size": "40",
+        "stock": 0
+      },
+      {
+        "sku": "TR-PAN03-NEG-42",
+        "color": "negro",
+        "size": "42",
+        "stock": 0
+      },
+      {
+        "sku": "TR-PAN03-NEG-44",
+        "color": "negro",
+        "size": "44",
+        "stock": 10
+      },
+      {
+        "sku": "TR-PAN03-NEG-46",
+        "color": "negro",
+        "size": "46",
+        "stock": 8
+      },
+      {
+        "sku": "TR-PAN03-VMER-36",
+        "color": "verde-militar",
+        "size": "36",
+        "stock": 14
+      },
+      {
+        "sku": "TR-PAN03-VMER-38",
+        "color": "verde-militar",
+        "size": "38",
+        "stock": 0
+      },
+      {
+        "sku": "TR-PAN03-VMER-40",
+        "color": "verde-militar",
+        "size": "40",
+        "stock": 3
+      },
+      {
+        "sku": "TR-PAN03-VMER-42",
+        "color": "verde-militar",
+        "size": "42",
+        "stock": 5
+      },
+      {
+        "sku": "TR-PAN03-VMER-44",
+        "color": "verde-militar",
+        "size": "44",
+        "stock": 1
+      },
+      {
+        "sku": "TR-PAN03-VMER-46",
+        "color": "verde-militar",
+        "size": "46",
+        "stock": 9
+      }
+    ]
+  },
+  {
+    "id": "ves-01",
+    "slug": "vestido-midi-lino",
+    "name": "Vestido midi de lino",
+    "category": "vestidos-y-polleras",
+    "garment": "vestido",
+    "description": "Breteles anchos, escote recto y falda con vuelo que llega a media pierna. Forrado en el cuerpo.",
+    "price": 79900,
+    "compareAtPrice": null,
+    "fit": "Entallado en el busto",
+    "material": "100% lino, forro de algodón",
+    "care": [
+      "Lavar a mano o en ciclo delicado en agua fría",
+      "Secar a la sombra",
+      "Planchar húmedo a temperatura alta"
+    ],
+    "sizeChart": "vestido",
+    "tags": [
+      "lino",
+      "verano"
+    ],
+    "createdAt": "2026-09-25",
+    "featured": true,
+    "colors": [
+      {
+        "id": "verde-salvia",
+        "name": "Verde salvia",
+        "hex": "#9AAA90",
+        "family": "verde",
+        "images": []
+      },
+      {
+        "id": "negro",
+        "name": "Negro",
+        "hex": "#232323",
+        "family": "negro",
+        "images": []
+      },
+      {
+        "id": "azul-profundo",
+        "name": "Azul profundo",
+        "hex": "#2C3F63",
+        "family": "azul",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "sku": "TR-VES01-VSER-XS",
+        "color": "verde-salvia",
+        "size": "XS",
+        "stock": 10
+      },
+      {
+        "sku": "TR-VES01-VSER-S",
+        "color": "verde-salvia",
+        "size": "S",
+        "stock": 8
+      },
+      {
+        "sku": "TR-VES01-VSER-M",
+        "color": "verde-salvia",
+        "size": "M",
+        "stock": 4
+      },
+      {
+        "sku": "TR-VES01-VSER-L",
+        "color": "verde-salvia",
+        "size": "L",
+        "stock": 7
+      },
+      {
+        "sku": "TR-VES01-VSER-XL",
+        "color": "verde-salvia",
+        "size": "XL",
+        "stock": 6
+      },
+      {
+        "sku": "TR-VES01-NEG-XS",
+        "color": "negro",
+        "size": "XS",
+        "stock": 1
+      },
+      {
+        "sku": "TR-VES01-NEG-S",
+        "color": "negro",
+        "size": "S",
+        "stock": 2
+      },
+      {
+        "sku": "TR-VES01-NEG-M",
+        "color": "negro",
+        "size": "M",
+        "stock": 12
+      },
+      {
+        "sku": "TR-VES01-NEG-L",
+        "color": "negro",
+        "size": "L",
+        "stock": 8
+      },
+      {
+        "sku": "TR-VES01-NEG-XL",
+        "color": "negro",
+        "size": "XL",
+        "stock": 14
+      },
+      {
+        "sku": "TR-VES01-APZU-XS",
+        "color": "azul-profundo",
+        "size": "XS",
+        "stock": 2
+      },
+      {
+        "sku": "TR-VES01-APZU-S",
+        "color": "azul-profundo",
+        "size": "S",
+        "stock": 8
+      },
+      {
+        "sku": "TR-VES01-APZU-M",
+        "color": "azul-profundo",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "sku": "TR-VES01-APZU-L",
+        "color": "azul-profundo",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "TR-VES01-APZU-XL",
+        "color": "azul-profundo",
+        "size": "XL",
+        "stock": 7
+      }
+    ]
+  },
+  {
+    "id": "ves-02",
+    "slug": "vestido-camisero-algodon",
+    "name": "Vestido camisero de algodón",
+    "category": "vestidos-y-polleras",
+    "garment": "vestido",
+    "description": "Popelín de algodón con botones de arriba abajo y cinto del mismo género. Se puede usar abierto como saco liviano.",
+    "price": 68900,
+    "compareAtPrice": null,
+    "fit": "Regular con cinto",
+    "material": "100% algodón popelín",
+    "care": [
+      "Lavar a máquina en agua fría con colores similares",
+      "No usar secarropas",
+      "Planchar a temperatura media del revés"
+    ],
+    "sizeChart": "vestido",
+    "tags": [
+      "algodon"
+    ],
+    "createdAt": "2026-08-18",
+    "featured": false,
+    "colors": [
+      {
+        "id": "blanco",
+        "name": "Blanco",
+        "hex": "#F4F4F2",
+        "family": "blanco",
+        "images": []
+      },
+      {
+        "id": "rayado-azul",
+        "name": "Rayado azul",
+        "hex": "#8DA4C2",
+        "family": "azul",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "sku": "TR-VES02-BLA-XS",
+        "color": "blanco",
+        "size": "XS",
+        "stock": 7
+      },
+      {
+        "sku": "TR-VES02-BLA-S",
+        "color": "blanco",
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "sku": "TR-VES02-BLA-M",
+        "color": "blanco",
+        "size": "M",
+        "stock": 14
+      },
+      {
+        "sku": "TR-VES02-BLA-L",
+        "color": "blanco",
+        "size": "L",
+        "stock": 11
+      },
+      {
+        "sku": "TR-VES02-BLA-XL",
+        "color": "blanco",
+        "size": "XL",
+        "stock": 10
+      },
+      {
+        "sku": "TR-VES02-RAAY-XS",
+        "color": "rayado-azul",
+        "size": "XS",
+        "stock": 8
+      },
+      {
+        "sku": "TR-VES02-RAAY-S",
+        "color": "rayado-azul",
+        "size": "S",
+        "stock": 7
+      },
+      {
+        "sku": "TR-VES02-RAAY-M",
+        "color": "rayado-azul",
+        "size": "M",
+        "stock": 14
+      },
+      {
+        "sku": "TR-VES02-RAAY-L",
+        "color": "rayado-azul",
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "sku": "TR-VES02-RAAY-XL",
+        "color": "rayado-azul",
+        "size": "XL",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": "pol-01",
+    "slug": "pollera-midi-plisada",
+    "name": "Pollera midi plisada",
+    "category": "vestidos-y-polleras",
+    "garment": "pollera",
+    "description": "Plisado permanente que no se pierde con el lavado, cintura con elástico atrás y largo midi.",
+    "price": 52900,
+    "compareAtPrice": 61900,
+    "fit": "Cintura alta",
+    "material": "100% poliéster",
+    "care": [
+      "Lavar a mano en agua fría",
+      "No retorcer",
+      "Colgar húmeda para conservar el plisado"
+    ],
+    "sizeChart": "inferior",
+    "tags": [
+      "plisado"
+    ],
+    "createdAt": "2026-07-15",
+    "featured": false,
+    "colors": [
+      {
+        "id": "negro",
+        "name": "Negro",
+        "hex": "#232323",
+        "family": "negro",
+        "images": []
+      },
+      {
+        "id": "beige",
+        "name": "Beige",
+        "hex": "#CBB89A",
+        "family": "beige",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "variants": [
+      {
+        "sku": "TR-POL01-NEG-36",
+        "color": "negro",
+        "size": "36",
+        "stock": 0
+      },
+      {
+        "sku": "TR-POL01-NEG-38",
+        "color": "negro",
+        "size": "38",
+        "stock": 8
+      },
+      {
+        "sku": "TR-POL01-NEG-40",
+        "color": "negro",
+        "size": "40",
+        "stock": 4
+      },
+      {
+        "sku": "TR-POL01-NEG-42",
+        "color": "negro",
+        "size": "42",
+        "stock": 0
+      },
+      {
+        "sku": "TR-POL01-NEG-44",
+        "color": "negro",
+        "size": "44",
+        "stock": 12
+      },
+      {
+        "sku": "TR-POL01-BEI-36",
+        "color": "beige",
+        "size": "36",
+        "stock": 8
+      },
+      {
+        "sku": "TR-POL01-BEI-38",
+        "color": "beige",
+        "size": "38",
+        "stock": 8
+      },
+      {
+        "sku": "TR-POL01-BEI-40",
+        "color": "beige",
+        "size": "40",
+        "stock": 0
+      },
+      {
+        "sku": "TR-POL01-BEI-42",
+        "color": "beige",
+        "size": "42",
+        "stock": 2
+      },
+      {
+        "sku": "TR-POL01-BEI-44",
+        "color": "beige",
+        "size": "44",
+        "stock": 8
+      }
+    ]
+  }
+]

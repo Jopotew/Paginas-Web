@@ -1,0 +1,16 @@
+{
+  "name": "@pw/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Núcleo agnóstico de vertical: contratos de datos, branding, dinero, carrito, catálogo, checkout y pagos.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "zod": "^4.1.0"
+  }
+}
