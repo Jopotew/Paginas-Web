@@ -13,6 +13,7 @@ export default function CheckoutPage() {
         currency={currency}
         shippingOptions={site.shipping.options}
         freeShippingThreshold={site.shipping.freeShippingThreshold}
+        paymentMethods={site.payment.methods}
         paymentInstructions={site.payment.instructions}
         placeOrder={placeOrder}
       />

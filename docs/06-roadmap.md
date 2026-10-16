@@ -11,10 +11,11 @@ Lo que está en la branch `Ropa`: catálogo, filtros, ficha, bolsa, checkout com
 ## Fase 1 — Vender online
 
 1. **Persistencia de pedidos.** Base de datos (propuesta: Postgres gestionado, por ejemplo Supabase o Neon) con tablas `orders`, `order_lines` y `stock`. `placeOrder` guarda el pedido y descuenta stock en una transacción.
-2. **Mercado Pago (Checkout Pro).** Nueva implementación de `PaymentProvider` que crea una preferencia y devuelve `{ kind: "redirect", url }`. Webhook para actualizar el estado del pedido (`pendiente-de-pago` → `pagado` / `rechazado`). El checkout no cambia: ya recalcula todo en servidor.
-3. **Email de confirmación** al cliente y aviso al comercio.
-4. **Rate limiting** de la server action de checkout.
-5. **Primer deploy y medición real:** Lighthouse y Web Vitals (LCP, INP, CLS) en mobile con red 4G. Con esos números se decide si hace falta optimizar algo (ver [arquitectura § Rendimiento](03-arquitectura.md#rendimiento)).
+2. **Mercado Pago (Checkout Pro).** Hoy la tienda manda el link de pago a mano. En esta fase se automatiza: nueva implementación de `PaymentProvider` que crea una preferencia y devuelve `{ kind: "redirect", url }`. Webhook para actualizar el estado del pedido (`pendiente-de-pago` → `pagado` / `rechazado`). El checkout no cambia: ya recalcula todo en servidor.
+3. **"Lo más vendido" calculado desde los pedidos** en lugar del campo `unitsSold` cargado a mano.
+4. **Email de confirmación** al cliente y aviso al comercio.
+5. **Rate limiting** de la server action de checkout.
+6. **Primer deploy y medición real:** Lighthouse y Web Vitals (LCP, INP, CLS) en mobile con red 4G. Con esos números se decide si hace falta optimizar algo (ver [arquitectura § Rendimiento](03-arquitectura.md#rendimiento)).
 
 ## Fase 2 — Paneles de gestión
 

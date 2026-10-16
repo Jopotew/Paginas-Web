@@ -25,6 +25,11 @@ export const BaseItemSchema = z.object({
   /** Fecha ISO de alta; ordena "Novedades". */
   createdAt: z.iso.date(),
   featured: z.boolean().default(false),
+  /**
+   * Unidades vendidas; ordena "Lo más vendido". En el MVP se carga a mano;
+   * cuando haya pedidos persistidos se calcula desde ellos (docs/06-roadmap.md).
+   */
+  unitsSold: z.number().int().min(0).default(0),
 });
 
 export type BaseItem = z.infer<typeof BaseItemSchema>;

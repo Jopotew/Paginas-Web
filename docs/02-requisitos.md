@@ -18,6 +18,8 @@ Estado: ✅ implementado en el MVP · ⏳ planificado (ver roadmap)
 | RF-06 | Los filtros viven en la URL: se pueden compartir y funcionan sin JavaScript | ✅ |
 | RF-07 | Buscar por texto sin importar tildes ni plural; si el texto es una categoría, ir a la categoría | ✅ |
 | RF-08 | Mostrar los colores de cada producto en la tarjeta, atenuando los agotados | ✅ |
+| RF-09 | Inicio: carrusel "Lo más vendido" ordenado por unidades vendidas, sin tope de cantidad (crece con cada producto que suma ventas), sin productos agotados | ✅ |
+| RF-09b | Inicio: cada categoría muestra imágenes de sus 3 productos más vendidos con stock | ✅ |
 
 ### Ficha de producto
 
@@ -49,8 +51,10 @@ Estado: ✅ implementado en el MVP · ⏳ planificado (ver roadmap)
 | RF-32 | Recalcular precios y validar stock en el servidor | ✅ |
 | RF-33 | Mostrar errores por campo, con foco en el primero, y limpiarlos al corregir | ✅ |
 | RF-34 | Confirmación con número de pedido legible y link para enviarlo por WhatsApp | ✅ |
+| RF-34b | Informar las formas de pago (link de Mercado Pago o efectivo en el local con 10 días de reserva) en inicio, checkout, confirmación y ayuda, desde `site.json` | ✅ |
 | RF-35 | Persistir el pedido en el servidor y descontar stock | ⏳ Fase 1 |
-| RF-36 | Pagar con Mercado Pago | ⏳ Fase 1 |
+| RF-36 | Generar el link de Mercado Pago automáticamente y actualizar el pedido al pagarse | ⏳ Fase 1 |
+| RF-38 | Calcular "Lo más vendido" desde los pedidos en lugar de cargarlo a mano | ⏳ Fase 1 |
 | RF-37 | Email de confirmación automático | ⏳ Fase 1 |
 
 ### Gestión (paneles)

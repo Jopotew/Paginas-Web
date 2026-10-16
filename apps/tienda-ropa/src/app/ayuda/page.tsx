@@ -29,6 +29,13 @@ export default function HelpPage() {
 
       <section id="pagos">
         <h2>Formas de pago</h2>
+        <ul>
+          {site.payment.methods.map((m) => (
+            <li key={m.id}>
+              <strong>{m.label}</strong>: {m.description}
+            </li>
+          ))}
+        </ul>
         <p>{site.payment.instructions}</p>
       </section>
 

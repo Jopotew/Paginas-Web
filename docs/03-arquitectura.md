@@ -117,6 +117,10 @@ sequenceDiagram
 
 **D10. npm workspaces como gestor del monorepo.** Se usa npm para no sumar herramientas. Las dependencias internas se declaran con `"*"`, que npm resuelve al paquete local. Trade-off: npm sube todo a un `node_modules` común, así que un paquete podría importar algo que no declaró sin que la instalación falle; el typecheck por paquete lo detecta solo en parte. Vitest está en la versión 5 porque la 4 dispara un error del resolvedor de npm 10 con sus dependencias peer opcionales (`Cannot read properties of null (reading 'edgesOut')`).
 
+**D11. Ventas como dato cargado a mano (`unitsSold`).** "Lo más vendido" necesita un ranking y todavía no hay pedidos guardados. El campo vive en el contrato genérico (`BaseItemSchema`) porque cualquier rubro vende cosas. Las cifras del ejemplo son inventadas. Cuando exista la base de datos (fase 1) el número se calcula desde los pedidos y el campo deja de editarse a mano.
+
+**D12. El carrusel no tiene tope.** Muestra todos los productos con ventas y stock, como se pidió. Con 18 productos es irrelevante; con cientos, el HTML del inicio crece en proporción. Si el catálogo pasa de unos 50 productos con ventas, conviene limitarlo (supuesto, no medido).
+
 ## Rendimiento
 
 Siguiendo el criterio del proyecto: no se optimiza sin medición.

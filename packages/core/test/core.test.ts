@@ -9,6 +9,7 @@ import {
   formatMoney,
   makeOrderId,
   parseStoredCart,
+  rankBySales,
   searchItems,
   shippingCost,
   sortItems,
@@ -73,9 +74,9 @@ describe("cartReducer", () => {
 });
 
 const items: BaseItem[] = [
-  { id: "1", slug: "a", name: "Campera de jean", description: "Denim rígido", category: "camperas", price: 300, compareAtPrice: null, tags: [], createdAt: "2026-01-01", featured: false },
-  { id: "2", slug: "b", name: "Remera básica", description: "Algodón peinado", category: "remeras", price: 100, compareAtPrice: null, tags: ["basico"], createdAt: "2026-03-01", featured: true },
-  { id: "3", slug: "c", name: "Camisa Oxford", description: "Algodón", category: "camisas", price: 200, compareAtPrice: null, tags: [], createdAt: "2026-02-01", featured: false },
+  { id: "1", slug: "a", name: "Campera de jean", description: "Denim rígido", category: "camperas", price: 300, compareAtPrice: null, tags: [], createdAt: "2026-01-01", featured: false, unitsSold: 0 },
+  { id: "2", slug: "b", name: "Remera básica", description: "Algodón peinado", category: "remeras", price: 100, compareAtPrice: null, tags: ["basico"], createdAt: "2026-03-01", featured: true, unitsSold: 0 },
+  { id: "3", slug: "c", name: "Camisa Oxford", description: "Algodón", category: "camisas", price: 200, compareAtPrice: null, tags: [], createdAt: "2026-02-01", featured: false, unitsSold: 0 },
 ];
 
 describe("catálogo", () => {
@@ -83,6 +84,10 @@ describe("catálogo", () => {
     expect(sortItems(items, "precio-asc").map((i) => i.id)).toEqual(["2", "3", "1"]);
     expect(sortItems(items, "novedades").map((i) => i.id)).toEqual(["2", "3", "1"]);
     expect(sortItems(items, "relevancia")[0]!.id).toBe("2");
+  });
+  it("ordena por ventas de forma estable", () => {
+    const sold = items.map((it, i) => ({ ...it, unitsSold: [5, 9, 5][i]! }));
+    expect(rankBySales(sold).map((i) => i.id)).toEqual(["2", "1", "3"]);
   });
   it("busca sin importar tildes ni plural", () => {
     expect(searchItems(items, "algodon").map((i) => i.id)).toEqual(["2", "3"]);

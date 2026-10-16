@@ -24,7 +24,7 @@ La auditoría de Zara documenta problemas concretos que el MVP evita a propósit
 
 | Problema observado | Decisión en el MVP |
 | --- | --- |
-| Slider en el inicio que distrae y carga cognitivamente | Hero estático con un solo mensaje y un solo botón |
+| Slider en el inicio que distrae y carga cognitivamente | Hero estático con un solo mensaje y un solo botón. El carrusel de "Lo más vendido" va debajo, es manual (sin autoplay) y se mueve con botones o swipe |
 | Los colores disponibles no se ven en el listado | Puntos de color en cada tarjeta, atenuados si el color está agotado |
 | Sin opciones de orden por precio o novedad | Orden por destacados, novedades, menor y mayor precio |
 | Botón de filtros chico y difícil de ver | Filtros siempre visibles en escritorio; en mobile, botón ancho con contador |

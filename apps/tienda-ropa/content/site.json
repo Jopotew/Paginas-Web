@@ -65,6 +65,18 @@
   },
   "payment": {
     "provider": "manual",
-    "instructions": "Te escribimos por WhatsApp o email dentro de las 24 h hábiles para confirmar el stock y coordinar el pago por transferencia bancaria, o en efectivo si retirás en el local. Las prendas quedan reservadas por 48 h."
+    "methods": [
+      {
+        "id": "mercado-pago",
+        "label": "Mercado Pago",
+        "description": "Te enviamos el link de pago por WhatsApp o email."
+      },
+      {
+        "id": "efectivo-local",
+        "label": "Efectivo en el local",
+        "description": "Pagás al retirar. Te guardamos las prendas 10 días."
+      }
+    ],
+    "instructions": "Te escribimos por WhatsApp o email dentro de las 24 h hábiles con el link de pago de Mercado Pago. Si elegiste retirar en el local, también podés pagar en efectivo al retirar: te guardamos las prendas 10 días."
   }
 }

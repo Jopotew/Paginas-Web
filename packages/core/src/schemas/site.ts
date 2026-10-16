@@ -57,6 +57,17 @@ export const SiteConfigSchema = z.object({
   }),
   payment: z.object({
     provider: z.enum(["manual"]),
+    /** Formas de pago que ve el cliente (inicio, checkout y ayuda). Solo informativas en el MVP. */
+    methods: z
+      .array(
+        z.object({
+          id: z.string().regex(/^[a-z0-9-]+$/),
+          label: z.string().min(1),
+          description: z.string().min(1),
+        }),
+      )
+      .min(1),
+    /** Qué pasa después de confirmar el pedido. */
     instructions: z.string().min(1),
   }),
 });

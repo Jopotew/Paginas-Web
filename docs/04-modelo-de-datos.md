@@ -32,7 +32,8 @@ Cada elemento del array es un producto:
 | `sizeChart` | enum | `superior`, `inferior` o `vestido`: qué tabla de medidas mostrar |
 | `tags` | string[] | Se usan en la búsqueda |
 | `createdAt` | fecha ISO | Ordena "Novedades" |
-| `featured` | boolean | Aparece en "Lo que más se lleva" y primero en "Destacados" |
+| `featured` | boolean | Aparece primero en el orden "Destacados" del catálogo y en productos relacionados |
+| `unitsSold` | entero ≥ 0 | Unidades vendidas. Ordena el carrusel "Lo más vendido" y las 3 imágenes de cada categoría. Por defecto 0 (no aparece en el carrusel). Las cifras del ejemplo son inventadas |
 | `colors` | Color[] | Ver abajo |
 | `sizes` | string[] | En el orden en que se muestran |
 | `variants` | Variante[] | Una por cada combinación color × talle |
@@ -76,7 +77,7 @@ Convención de SKU usada en el ejemplo: `TR-<modelo>-<color>-<talle>`, por ejemp
 | `shipping.freeShippingThreshold` | Subtotal desde el que el envío a domicilio es gratis, o `null` |
 | `returnsPolicy` | Texto de cambios |
 | `contact` | Email, WhatsApp (formato internacional sin `+`), dirección, Instagram |
-| `payment` | Proveedor (`manual` por ahora) e instrucciones que ve el cliente |
+| `payment` | Proveedor (`manual`), `methods` (formas de pago con `id`, `label` y `description`, se muestran en inicio, checkout y ayuda) e `instructions` (qué pasa después de confirmar) |
 | `currency` | Código ISO, locale y decimales |
 
 ## Carrito (navegador)

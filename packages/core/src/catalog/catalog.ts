@@ -26,6 +26,14 @@ export function sortItems<T extends BaseItem>(items: readonly T[], sort: SortKey
   return indexed.sort(cmp[sort]).map((x) => x.item);
 }
 
+/** De más a menos vendido. Orden estable: ante empate conserva el orden del archivo. */
+export function rankBySales<T extends BaseItem>(items: readonly T[]): T[] {
+  return items
+    .map((item, i) => ({ item, i }))
+    .sort((a, b) => b.item.unitsSold - a.item.unitsSold || a.i - b.i)
+    .map((x) => x.item);
+}
+
 /** Minúsculas y sin tildes, para que "camperas" encuentre "Campera" y "algodon" encuentre "algodón". */
 export function normalizeText(s: string): string {
   return s

@@ -579,8 +579,8 @@ legend {
 
 .category-index a {
   display: grid;
-  gap: var(--space-1);
-  padding-block: var(--space-4);
+  gap: var(--space-2);
+  padding-block: var(--space-5);
   border-top: 1px solid var(--color-border);
   text-decoration: none;
 }
@@ -589,6 +589,11 @@ legend {
   font-family: var(--font-display);
   font-size: var(--text-lg);
   transition: color 0.15s;
+}
+
+.category-index__text {
+  display: grid;
+  gap: var(--space-1);
 }
 
 .category-index__desc {
@@ -600,18 +605,126 @@ legend {
   font-size: var(--text-sm);
 }
 
+/* Las 3 más vendidas de la categoría, en el mismo 4:5 que la grilla. */
+.category-index__thumbs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-2);
+  max-width: 300px;
+  margin-top: var(--space-2);
+}
+
+.category-index__thumb .media-frame {
+  border-radius: var(--radius-control);
+  transition: transform 0.2s var(--ease);
+}
+
 .category-index a:hover .category-index__name {
   color: var(--color-accent);
 }
 
+.category-index a:hover .category-index__thumb .media-frame {
+  transform: translateY(-3px);
+}
+
 @media (min-width: 768px) {
   .category-index a {
-    grid-template-columns: minmax(220px, 1.1fr) 2fr auto;
-    align-items: baseline;
-    gap: var(--space-5);
+    grid-template-columns: minmax(200px, 1fr) minmax(0, 1.4fr) 300px;
+    align-items: center;
+    gap: var(--space-6);
   }
   .category-index__name {
     font-size: var(--text-xl);
+  }
+  .category-index__thumbs {
+    margin-top: 0;
+  }
+}
+
+/* ---------- Carrusel ---------- */
+.slider__tools {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.slider__tools .text-link {
+  white-space: nowrap;
+}
+
+/* En pantallas táctiles se desliza con el dedo; la tarjeta cortada al borde indica que hay más. */
+.slider__buttons {
+  display: none;
+  gap: var(--space-2);
+}
+
+@media (min-width: 700px) {
+  .slider__buttons {
+    display: flex;
+  }
+}
+
+.slider__button {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  background: var(--color-background);
+  cursor: pointer;
+}
+
+.slider__button:hover:not(:disabled) {
+  border-color: var(--color-text);
+}
+
+.slider__button:disabled {
+  color: var(--color-border);
+  cursor: default;
+}
+
+.slider__button svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Scroll nativo con snap: el ancho de cada ítem define cuántos se ven por pantalla. */
+.slider__track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 44%;
+  gap: var(--space-3);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-bottom: var(--space-1);
+}
+
+.slider__track::-webkit-scrollbar {
+  display: none;
+}
+
+.slider__item {
+  scroll-snap-align: start;
+}
+
+@media (min-width: 700px) {
+  .slider__track {
+    grid-auto-columns: calc((100% - 2 * var(--space-5)) / 3);
+    gap: var(--space-5);
+  }
+}
+
+@media (min-width: 1100px) {
+  .slider__track {
+    grid-auto-columns: calc((100% - 3 * var(--space-5)) / 4);
   }
 }
 
@@ -631,9 +744,37 @@ legend {
   font-size: var(--text-lg);
 }
 
-.services p {
+.services p,
+.services__list {
   max-width: 42ch;
   color: var(--color-text-muted);
+}
+
+.services__list {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.services__list strong {
+  color: var(--color-text);
+  font-weight: 500;
+}
+
+.payment-methods {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.payment-methods li {
+  display: grid;
+  gap: 2px;
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-control);
+}
+
+.payment-methods__label {
+  font-weight: 500;
 }
 
 @media (min-width: 768px) {
