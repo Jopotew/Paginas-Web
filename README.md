@@ -2,7 +2,7 @@
 
 Plataforma modular para generar tiendas online independientes por cliente a partir de un núcleo común. Cada rubro (vertical) es un módulo; cada cliente es un deploy con su propio contenido y branding.
 
-**Vertical activo: Ropa.** El MVP es una tienda de indumentaria completa (catálogo, filtros, ficha de producto, bolsa y checkout) con una marca de ejemplo, *Trama*. No incluye pasarela de pago todavía: el pedido se confirma y el pago se coordina por WhatsApp o email (ver [roadmap](docs/06-roadmap.md)).
+**Vertical activo: Ropa.** El MVP es una tienda de indumentaria completa (catálogo, filtros, ficha de producto, bolsa y checkout) con una marca de ejemplo, *Trama*. No incluye pasarela de pago todavía: el pedido se confirma y el cliente paga con un link de Mercado Pago que le envía la tienda o en efectivo al retirar en el local (ver [roadmap](docs/06-roadmap.md)).
 
 ## Requisitos
 

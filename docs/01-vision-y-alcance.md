@@ -16,7 +16,7 @@ Probar la arquitectura con **un** vertical terminado y bien hecho antes de sumar
 
 ## Dentro del alcance (MVP)
 
-- Inicio con presentación de la marca, categorías, destacados y novedades.
+- Inicio con presentación de la marca, carrusel de lo más vendido, categorías con sus tres productos más vendidos, novedades y formas de envío, cambio y pago.
 - Catálogo por categoría con filtros de talle, color, precio y descuento, orden y búsqueda.
 - Ficha de producto con selector de color y talle con stock por variante, guía de talles, material, cuidado, envíos y cambios.
 - Bolsa persistente en el navegador (panel lateral y página).
@@ -29,7 +29,7 @@ Probar la arquitectura con **un** vertical terminado y bien hecho antes de sumar
 
 | Excluido | Por qué | Cuándo entra |
 | --- | --- | --- |
-| Pasarela de pago (Mercado Pago) | Requiere cuenta del comercio, persistencia y webhooks | Fase 1 del roadmap |
+| Integración con la API de Mercado Pago | Requiere cuenta del comercio, persistencia y webhooks. En el MVP la tienda envía el link de pago a mano, o el cliente paga en efectivo al retirar (con 10 días de reserva) | Fase 1 del roadmap |
 | Base de datos y persistencia de pedidos | Sin clientes reales, el JSON alcanza y no tiene costo | Fase 1 |
 | Panel de administrador y de empleado | No se construyen herramientas de carga hasta tener a quién dárselas | Fase 2 |
 | Cuentas de cliente | El checkout como invitado convierte mejor; las cuentas no son necesarias para comprar | Fase 3, si se pide |

@@ -53,12 +53,16 @@ Escala: 13 · 16 · 18 · 22 · 28 · 28–40 (fluido) · 42–76 px (hero, flui
 
 **Core** (genéricos, `components/core`): `SiteHeader`, `SiteFooter`, `CartProvider`, `CartButton`, `CartDrawer`, `CartLines`, `CartPageView`, `FreeShippingNote`, `Price`, `SortSelect`, `VariantSelector`, `CheckoutForm`, `OrderConfirmation`.
 
+`Slider` (carrusel genérico, en core porque sirve para cualquier lista de productos).
+
 **Ropa** (`components/ropa`): `GarmentArt`, `ProductMedia`, `ProductCard` / `ProductGrid`, `FilterPanel`, `FilterToggle`, `ProductView`, `SizeGuideDialog`.
 
 Notas de los componentes clave:
 
 - **`VariantSelector`** — radios nativos estilizados (teclado con flechas y anuncio de estado gratis). Dos variantes: `button` (talles, grilla) y `swatch` (colores, círculos de 32 px con anillo al seleccionar). Opciones sin stock: en `button` quedan deshabilitadas y tachadas; en `swatch` se pueden elegir (para ver la prenda) pero se atenúan y el botón principal indica "Sin stock en …".
 - **`CartDrawer` y `SizeGuideDialog`** — `<dialog>` nativo con `showModal()`: foco atrapado, Escape y fondo inerte sin librerías. Clic en el fondo cierra.
+- **`Slider`** — scroll horizontal nativo con snap, sin autoplay. Se ven 2,2 ítems en mobile, 3 desde 700 px y 4 desde 1100 px. Botones anterior/siguiente desde 700 px, que se deshabilitan en los extremos y desaparecen si todo entra; en touch se desliza con el dedo. Recibe los `<li>` ya renderizados en el servidor, así que solo agrega la lógica de los botones al JS.
+- **Índice de categorías** — cada fila lleva nombre, descripción, cantidad de modelos y las 3 más vendidas de la categoría como miniaturas 4:5 decorativas (toda la fila es un solo link).
 - **`FilterPanel`** — cada opción es un link. Orden: talle (grilla abierta), color, precio y descuento, categoría.
 - **`GarmentArt`** — SVG 400×500 por tipo de prenda, relleno con el hex del color y fondo con ese color mezclado al 14 % sobre `surface`.
 

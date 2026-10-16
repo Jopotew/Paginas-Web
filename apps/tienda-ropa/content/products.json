@@ -22,6 +22,7 @@
     ],
     "createdAt": "2026-06-02",
     "featured": true,
+    "unitsSold": 412,
     "colors": [
       {
         "id": "blanco",
@@ -230,6 +231,7 @@
     ],
     "createdAt": "2026-09-20",
     "featured": false,
+    "unitsSold": 168,
     "colors": [
       {
         "id": "arena",
@@ -395,6 +397,7 @@
     ],
     "createdAt": "2026-07-10",
     "featured": false,
+    "unitsSold": 95,
     "colors": [
       {
         "id": "crudo-azul",
@@ -517,6 +520,7 @@
     ],
     "createdAt": "2026-06-15",
     "featured": true,
+    "unitsSold": 231,
     "colors": [
       {
         "id": "celeste",
@@ -682,6 +686,7 @@
     ],
     "createdAt": "2026-08-28",
     "featured": false,
+    "unitsSold": 74,
     "colors": [
       {
         "id": "arena",
@@ -803,6 +808,7 @@
     ],
     "createdAt": "2026-09-05",
     "featured": true,
+    "unitsSold": 120,
     "colors": [
       {
         "id": "indigo",
@@ -882,6 +888,7 @@
     ],
     "createdAt": "2026-07-01",
     "featured": true,
+    "unitsSold": 289,
     "colors": [
       {
         "id": "gris-melange",
@@ -1048,6 +1055,7 @@
     ],
     "createdAt": "2026-06-20",
     "featured": false,
+    "unitsSold": 143,
     "colors": [
       {
         "id": "crudo",
@@ -1213,6 +1221,7 @@
     ],
     "createdAt": "2026-06-05",
     "featured": false,
+    "unitsSold": 61,
     "colors": [
       {
         "id": "bordo",
@@ -1334,6 +1343,7 @@
     ],
     "createdAt": "2026-08-12",
     "featured": true,
+    "unitsSold": 204,
     "colors": [
       {
         "id": "indigo",
@@ -1456,6 +1466,7 @@
     ],
     "createdAt": "2026-09-02",
     "featured": false,
+    "unitsSold": 88,
     "colors": [
       {
         "id": "verde-militar",
@@ -1578,6 +1589,7 @@
     ],
     "createdAt": "2026-10-08",
     "featured": false,
+    "unitsSold": 37,
     "colors": [
       {
         "id": "camel",
@@ -1700,6 +1712,7 @@
     ],
     "createdAt": "2026-07-22",
     "featured": true,
+    "unitsSold": 356,
     "colors": [
       {
         "id": "indigo",
@@ -1864,6 +1877,7 @@
     ],
     "createdAt": "2026-06-28",
     "featured": false,
+    "unitsSold": 177,
     "colors": [
       {
         "id": "beige",
@@ -2028,6 +2042,7 @@
     ],
     "createdAt": "2026-08-03",
     "featured": false,
+    "unitsSold": 109,
     "colors": [
       {
         "id": "negro",
@@ -2150,6 +2165,7 @@
     ],
     "createdAt": "2026-09-25",
     "featured": true,
+    "unitsSold": 198,
     "colors": [
       {
         "id": "verde-salvia",
@@ -2295,6 +2311,7 @@
     ],
     "createdAt": "2026-08-18",
     "featured": false,
+    "unitsSold": 83,
     "colors": [
       {
         "id": "blanco",
@@ -2403,6 +2420,7 @@
     ],
     "createdAt": "2026-07-15",
     "featured": false,
+    "unitsSold": 126,
     "colors": [
       {
         "id": "negro",

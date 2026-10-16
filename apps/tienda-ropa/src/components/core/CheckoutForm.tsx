@@ -18,6 +18,7 @@ interface Props {
   currency: CurrencyConfig;
   shippingOptions: ShippingOption[];
   freeShippingThreshold: number | null;
+  paymentMethods: { id: string; label: string; description: string }[];
   paymentInstructions: string;
   placeOrder: (input: unknown) => Promise<PlaceOrderResult>;
 }
@@ -26,7 +27,7 @@ interface Props {
  * Compra como invitado en una sola página: sin cuenta obligatoria, que es una
  * de las causas más citadas de abandono (docs/00-investigacion-referentes.md).
  */
-export function CheckoutForm({ currency, shippingOptions, freeShippingThreshold, paymentInstructions, placeOrder }: Props) {
+export function CheckoutForm({ currency, shippingOptions, freeShippingThreshold, paymentMethods, paymentInstructions, placeOrder }: Props) {
   const router = useRouter();
   const { state, ready, subtotal, dispatch } = useCart();
   const [optionId, setOptionId] = useState<string>(shippingOptions[0]!.id);
@@ -193,7 +194,15 @@ export function CheckoutForm({ currency, shippingOptions, freeShippingThreshold,
 
         <fieldset className="checkout__section">
           <legend>Pago</legend>
-          <p>{paymentInstructions}</p>
+          <ul className="payment-methods">
+            {paymentMethods.map((m) => (
+              <li key={m.id}>
+                <span className="payment-methods__label">{m.label}</span>
+                <span className="muted small">{m.description}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="muted small">{paymentInstructions}</p>
           <div className="field">
             <label htmlFor="f-notes">Nota para la tienda (opcional)</label>
             <textarea id="f-notes" name="notes" rows={3} maxLength={500} placeholder="Por ejemplo, un horario para recibir el envío" />
@@ -229,7 +238,7 @@ export function CheckoutForm({ currency, shippingOptions, freeShippingThreshold,
         <button type="submit" className="button button--primary button--block button--large" disabled={pending}>
           {pending ? "Enviando pedido…" : "Confirmar pedido"}
         </button>
-        <p className="muted small">Todavía no se cobra nada: te contactamos para coordinar el pago.</p>
+        <p className="muted small">Todavía no se cobra nada: pagás después de confirmar, como se indica arriba.</p>
       </aside>
     </form>
   );

@@ -2,9 +2,10 @@ import { formatMoney, type CurrencyConfig } from "../money";
 import type { Order } from "../checkout/checkout";
 
 /**
- * Punto de extensión para cobrar. El MVP solo trae `manual` (transferencia,
- * efectivo al retirar, coordinación por WhatsApp). Mercado Pago se agrega como
- * otra implementación de esta interfaz sin tocar el checkout (docs/06-roadmap.md).
+ * Punto de extensión para cobrar. El MVP solo trae `manual`: la tienda manda a
+ * mano el link de Mercado Pago o el cliente paga en efectivo al retirar. La
+ * integración con la API de Mercado Pago se agrega como otra implementación de
+ * esta interfaz sin tocar el checkout (docs/06-roadmap.md).
  */
 export interface PaymentProvider {
   id: string;

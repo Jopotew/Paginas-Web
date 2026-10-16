@@ -1,19 +1,22 @@
 import Link from "next/link";
-import { formatMoney, sortItems } from "@pw/core";
+import { formatMoney, rankBySales, sortItems } from "@pw/core";
 import { defaultColor, isSoldOut } from "@pw/ropa";
-import { ProductGrid } from "@/components/ropa/ProductCard";
+import { Slider } from "@/components/core/Slider";
+import { ProductCard, ProductGrid } from "@/components/ropa/ProductCard";
 import { GarmentArt } from "@/components/ropa/GarmentArt";
+import { ProductMedia } from "@/components/ropa/ProductMedia";
 import { currency, products, site } from "@/lib/content";
+
+/** Cuántas miniaturas lleva cada categoría. */
+const CATEGORY_THUMBS = 3;
 
 export default function HomePage() {
   const available = products.filter((p) => !isSoldOut(p));
-  const allFeatured = available.filter((p) => p.featured);
-  // Filas completas de 4: una fila a medias se ve como un error de carga.
-  const featured = allFeatured.slice(0, Math.max(4, Math.floor(allFeatured.length / 4) * 4));
-  const shown = new Set(featured.map((p) => p.id));
-  const newest = sortItems(available.filter((p) => !shown.has(p.id)), "novedades").slice(0, 4);
-  // Tres prendas para la composición del hero: las destacadas de categorías distintas.
-  const heroPieces = allFeatured.filter((p, i, arr) => arr.findIndex((q) => q.category === p.category) === i).slice(0, 3);
+  // Sin tope: cada producto que suma ventas entra al carrusel.
+  const bestSellers = rankBySales(available).filter((p) => p.unitsSold > 0);
+  const newest = sortItems(available, "novedades").slice(0, 4);
+  // Tres prendas para la composición del hero: las más vendidas de categorías distintas.
+  const heroPieces = bestSellers.filter((p, i, arr) => arr.findIndex((q) => q.category === p.category) === i).slice(0, 3);
   const threshold = site.shipping.freeShippingThreshold;
 
   return (
@@ -37,36 +40,56 @@ export default function HomePage() {
         </div>
       </section>
 
+      {bestSellers.length > 0 ? (
+        <Slider
+          id="mas-vendido"
+          title="Lo más vendido"
+          action={
+            <Link href="/tienda" className="text-link">
+              Ver todo
+            </Link>
+          }
+        >
+          {bestSellers.map((p, i) => (
+            <li key={p.id} className="slider__item">
+              <ProductCard product={p} currency={currency} priority={i < 4} />
+            </li>
+          ))}
+        </Slider>
+      ) : null}
+
       <section className="container section" aria-labelledby="categorias">
         <h2 id="categorias" className="section__title">
           Categorías
         </h2>
         <ul className="category-index">
           {site.categories.map((c) => {
-            const count = products.filter((p) => p.category === c.slug).length;
+            const inCategory = products.filter((p) => p.category === c.slug);
+            const top = rankBySales(inCategory.filter((p) => !isSoldOut(p))).slice(0, CATEGORY_THUMBS);
             return (
               <li key={c.slug}>
                 <Link href={`/tienda/${c.slug}`}>
                   <span className="category-index__name">{c.name}</span>
-                  <span className="category-index__desc">{c.description}</span>
-                  <span className="category-index__count">{count} {count === 1 ? "modelo" : "modelos"}</span>
+                  <span className="category-index__text">
+                    <span className="category-index__desc">{c.description}</span>
+                    <span className="category-index__count">
+                      {inCategory.length} {inCategory.length === 1 ? "modelo" : "modelos"}
+                    </span>
+                  </span>
+                  {top.length > 0 ? (
+                    <span className="category-index__thumbs">
+                      {top.map((p) => (
+                        <span key={p.id} className="category-index__thumb">
+                          <ProductMedia product={p} color={defaultColor(p)} decorative />
+                        </span>
+                      ))}
+                    </span>
+                  ) : null}
                 </Link>
               </li>
             );
           })}
         </ul>
-      </section>
-
-      <section className="container section" aria-labelledby="destacados">
-        <div className="section__head">
-          <h2 id="destacados" className="section__title">
-            Lo que más se lleva
-          </h2>
-          <Link href="/tienda" className="text-link">
-            Ver todo
-          </Link>
-        </div>
-        <ProductGrid products={featured} currency={currency} />
       </section>
 
       <section className="container section" aria-labelledby="novedades">
@@ -95,7 +118,13 @@ export default function HomePage() {
         </div>
         <div>
           <h2>Pagos</h2>
-          <p>Transferencia bancaria o efectivo al retirar. Confirmamos cada pedido por WhatsApp o email.</p>
+          <ul className="services__list">
+            {site.payment.methods.map((m) => (
+              <li key={m.id}>
+                <strong>{m.label}.</strong> {m.description}
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
     </>

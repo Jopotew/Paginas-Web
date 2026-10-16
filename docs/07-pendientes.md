@@ -10,6 +10,7 @@ El MVP funciona con una marca y datos de ejemplo. Para convertirlo en la tienda 
 - [ ] **Bloqueante — Catálogo real:** nombres, descripciones, precios, materiales, cuidados, talles y stock por variante.
 - [ ] **Bloqueante — Tablas de medidas reales** por tipo de prenda (hoy son de referencia, en `packages/module-ropa/src/sizeGuides.ts`).
 - [ ] Nombre, logo, colores y tipografías de la marca (`site.json → branding`).
+- [ ] Unidades vendidas por producto (`unitsSold`), para ordenar "Lo más vendido". Las del ejemplo son inventadas.
 - [ ] Textos del inicio y descripciones de categorías.
 
 ## Datos comerciales
@@ -24,10 +25,12 @@ El MVP funciona con una marca y datos de ejemplo. Para convertirlo en la tienda 
 
 - [ ] **Bloqueante — Dominio** y `siteUrl` en `site.json`.
 - [ ] **Bloqueante — Hosting.** La app es Next.js estándar; corre en Vercel, Netlify o un servidor Node propio.
-- [ ] Para la fase 1: cuenta de Mercado Pago del comercio (credenciales de producción y de prueba) y base de datos.
+- [ ] **Bloqueante — Cuenta de Mercado Pago del comercio**, para generar los links de pago (ya en el MVP, a mano). En la fase 1 se suman credenciales de producción y de prueba para la integración, y una base de datos.
 
 ## Decisiones abiertas
 
 - ¿Los pedidos llegan por WhatsApp, por email o por los dos?
 - ¿Se reserva stock al confirmar el pedido o recién al pagar?
-- ¿Hay precios distintos por transferencia (descuento) o por cuotas?
+- ¿Hay precio distinto en efectivo o en cuotas con Mercado Pago?
+- ¿El efectivo es solo con retiro en el local, o también contra entrega? Hoy el texto lo limita al local.
+- ¿El cliente debería elegir la forma de pago en el checkout? Hoy se informa pero no se elige.
